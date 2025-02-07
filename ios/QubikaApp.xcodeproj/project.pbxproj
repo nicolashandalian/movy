@@ -9,19 +9,9 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* QubikaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* QubikaAppTests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-QubikaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-QubikaApp.a */; };
-		0F1924FD0BD34224BB74EC33 /* BeVietnam-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86A827909B3D46BE8A0D80A1 /* BeVietnam-Bold.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1B5D64A6C08346EFB0C2234C /* BeVietnam-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5C5512841974803B30D47E9 /* BeVietnam-ExtraBoldItalic.ttf */; };
-		1C5C98EB86FD4AFC84687A9E /* BeVietnam-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B2F0BAF3CBF41EF8149BF30 /* BeVietnam-Light.ttf */; };
-		1D0EC771E2C14899B81455D8 /* BeVietnam-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D72E3FC1B6D04BEFB58A6350 /* BeVietnam-MediumItalic.ttf */; };
-		2026E2863AEE451F9DD56F8C /* BeVietnam-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4B5A4F2B2C14826AB9437A7 /* BeVietnam-SemiBoldItalic.ttf */; };
-		259E1CE4375B4380B1F5DA01 /* BeVietnam-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07C32642080D455B9F76C2DB /* BeVietnam-Medium.ttf */; };
-		2B6204009964488C8EB38F4E /* BeVietnam-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 804BF4BDC2724AC3B145965E /* BeVietnam-LightItalic.ttf */; };
-		3003E5A818074410AF7BBFB2 /* BeVietnam-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B7DB6D73862417E8C429E8D /* BeVietnam-ExtraBold.ttf */; };
-		583A13C8427E4B86967D0C98 /* BeVietnam-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E7B0D1E801D4B058D6CC905 /* BeVietnam-ThinItalic.ttf */; };
-		5F53C655AE3E4CB08475662C /* BeVietnam-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AB040487999420F85CBB0C3 /* BeVietnam-Regular.ttf */; };
 		6199D8D34586BBAA7A087966 /* libPods-QubikaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-QubikaApp.a */; };
 		6A9CD5D12AFA7029000B394E /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		6A9CD5D22AFA7029000B394E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -33,42 +23,28 @@
 		6A9CD5EA2AFA7033000B394E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		6AC8A3F92AFBD330003EA018 /* Development-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AC8A3F62AFBD330003EA018 /* Development-Info.plist */; };
 		6AC8A3FD2AFBD344003EA018 /* Staging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AC8A3FA2AFBD344003EA018 /* Staging-Info.plist */; };
-		729829BEC67E47C0B04FDAB7 /* BeVietnam-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 118E4880166E4333A00161A4 /* BeVietnam-Italic.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-QubikaApp-QubikaAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-QubikaApp-QubikaAppTests.a */; };
-		8386A0E168EB45D8BE6FCC8F /* BeVietnam-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC17ACBBAB324406B8D6AA5D /* BeVietnam-SemiBold.ttf */; };
-		893DF9E42BB48B6700BA85E9 /* BeVietnam-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86A827909B3D46BE8A0D80A1 /* BeVietnam-Bold.ttf */; };
-		893DF9E52BB48B6700BA85E9 /* BeVietnam-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9E133FC234A476FAFC8264C /* BeVietnam-BoldItalic.ttf */; };
-		893DF9E62BB48B6700BA85E9 /* BeVietnam-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B7DB6D73862417E8C429E8D /* BeVietnam-ExtraBold.ttf */; };
-		893DF9E72BB48B6700BA85E9 /* BeVietnam-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5C5512841974803B30D47E9 /* BeVietnam-ExtraBoldItalic.ttf */; };
-		893DF9E82BB48B6700BA85E9 /* BeVietnam-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 118E4880166E4333A00161A4 /* BeVietnam-Italic.ttf */; };
-		893DF9E92BB48B6700BA85E9 /* BeVietnam-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B2F0BAF3CBF41EF8149BF30 /* BeVietnam-Light.ttf */; };
-		893DF9EA2BB48B6700BA85E9 /* BeVietnam-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 804BF4BDC2724AC3B145965E /* BeVietnam-LightItalic.ttf */; };
-		893DF9EB2BB48B6700BA85E9 /* BeVietnam-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07C32642080D455B9F76C2DB /* BeVietnam-Medium.ttf */; };
-		893DF9EC2BB48B6700BA85E9 /* BeVietnam-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D72E3FC1B6D04BEFB58A6350 /* BeVietnam-MediumItalic.ttf */; };
-		893DF9ED2BB48B6700BA85E9 /* BeVietnam-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AB040487999420F85CBB0C3 /* BeVietnam-Regular.ttf */; };
-		893DF9EE2BB48B6700BA85E9 /* BeVietnam-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC17ACBBAB324406B8D6AA5D /* BeVietnam-SemiBold.ttf */; };
-		893DF9EF2BB48B6700BA85E9 /* BeVietnam-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4B5A4F2B2C14826AB9437A7 /* BeVietnam-SemiBoldItalic.ttf */; };
-		893DF9F02BB48B6700BA85E9 /* BeVietnam-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC012912FB3941EA82E0471F /* BeVietnam-Thin.ttf */; };
-		893DF9F12BB48B6700BA85E9 /* BeVietnam-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E7B0D1E801D4B058D6CC905 /* BeVietnam-ThinItalic.ttf */; };
-		893DF9F22BB48B7300BA85E9 /* BeVietnam-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86A827909B3D46BE8A0D80A1 /* BeVietnam-Bold.ttf */; };
-		893DF9F32BB48B7300BA85E9 /* BeVietnam-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9E133FC234A476FAFC8264C /* BeVietnam-BoldItalic.ttf */; };
-		893DF9F42BB48B7300BA85E9 /* BeVietnam-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B7DB6D73862417E8C429E8D /* BeVietnam-ExtraBold.ttf */; };
-		893DF9F52BB48B7300BA85E9 /* BeVietnam-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5C5512841974803B30D47E9 /* BeVietnam-ExtraBoldItalic.ttf */; };
-		893DF9F62BB48B7300BA85E9 /* BeVietnam-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 118E4880166E4333A00161A4 /* BeVietnam-Italic.ttf */; };
-		893DF9F72BB48B7300BA85E9 /* BeVietnam-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B2F0BAF3CBF41EF8149BF30 /* BeVietnam-Light.ttf */; };
-		893DF9F82BB48B7300BA85E9 /* BeVietnam-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 804BF4BDC2724AC3B145965E /* BeVietnam-LightItalic.ttf */; };
-		893DF9F92BB48B7300BA85E9 /* BeVietnam-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07C32642080D455B9F76C2DB /* BeVietnam-Medium.ttf */; };
-		893DF9FA2BB48B7300BA85E9 /* BeVietnam-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D72E3FC1B6D04BEFB58A6350 /* BeVietnam-MediumItalic.ttf */; };
-		893DF9FB2BB48B7300BA85E9 /* BeVietnam-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AB040487999420F85CBB0C3 /* BeVietnam-Regular.ttf */; };
-		893DF9FC2BB48B7300BA85E9 /* BeVietnam-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC17ACBBAB324406B8D6AA5D /* BeVietnam-SemiBold.ttf */; };
-		893DF9FD2BB48B7300BA85E9 /* BeVietnam-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4B5A4F2B2C14826AB9437A7 /* BeVietnam-SemiBoldItalic.ttf */; };
-		893DF9FE2BB48B7300BA85E9 /* BeVietnam-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC012912FB3941EA82E0471F /* BeVietnam-Thin.ttf */; };
-		893DF9FF2BB48B7300BA85E9 /* BeVietnam-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E7B0D1E801D4B058D6CC905 /* BeVietnam-ThinItalic.ttf */; };
 		8E9190672AC4D6F500BC14FF /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9190662AC4D6F500BC14FF /* BootSplash.storyboard */; };
 		B26AF34156D639C78399BB1E /* libPods-QubikaApp-QubikaAppDevelopment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FFB1C75EE1695A0A486614 /* libPods-QubikaApp-QubikaAppDevelopment.a */; };
-		C5F57C3871BF48AC815E5C16 /* BeVietnam-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9E133FC234A476FAFC8264C /* BeVietnam-BoldItalic.ttf */; };
-		DBC8E258609042779D870321 /* BeVietnam-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC012912FB3941EA82E0471F /* BeVietnam-Thin.ttf */; };
 		FBF3F7034AA8E51BDD693F39 /* libPods-QubikaApp-QubikaAppStaging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 462A91B4C11E444951E6EC33 /* libPods-QubikaApp-QubikaAppStaging.a */; };
+		AC4213E50623483684CAA2C1 /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15E323118B374BFD87DA0107 /* SF-Pro-Display-Black.otf */; };
+		6A58A18EC61A43368AE33994 /* SF-Pro-Display-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BC523E2AD95842469300A3FE /* SF-Pro-Display-BlackItalic.otf */; };
+		B507BC25885F422C91694AEC /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1EDD0015755540A2958D51EB /* SF-Pro-Display-Bold.otf */; };
+		DA6209FCD3D8490C8637D64B /* SF-Pro-Display-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 606853F26A86482D95A4F3F7 /* SF-Pro-Display-BoldItalic.otf */; };
+		AC7E6467285448B681F4DBEC /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 898703D034CB4121AB7FF7A0 /* SF-Pro-Display-Heavy.otf */; };
+		ACC31A866FD3455E867C12B3 /* SF-Pro-Display-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C202889694130B7EE766E /* SF-Pro-Display-HeavyItalic.otf */; };
+		211BA74C9DA14ABA844A530A /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39306EE49C7F439585FFADF9 /* SF-Pro-Display-Light.otf */; };
+		699C92BEF8D14C2BB6E378F7 /* SF-Pro-Display-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B990838851F34A7BA1F6A275 /* SF-Pro-Display-LightItalic.otf */; };
+		5813C592DDC3492B95D94284 /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB17E8B27D3D40278FE7EFB5 /* SF-Pro-Display-Medium.otf */; };
+		06BF8F3D765F4EC9BD138A8F /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70866DFA9F3C4ED3A436A66B /* SF-Pro-Display-MediumItalic.otf */; };
+		65246C9C4A454D0CAB7578F6 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0519D696E7624687A8893998 /* SF-Pro-Display-Regular.otf */; };
+		EE72239F395D4E12B87A5866 /* SF-Pro-Display-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8924108E487C424EBC33BD98 /* SF-Pro-Display-RegularItalic.otf */; };
+		C0EF0FFBCAB347BA97FC2208 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A159B92CA2664A52ADF5794A /* SF-Pro-Display-Semibold.otf */; };
+		7CF025B31A824A8A8590BBCC /* SF-Pro-Display-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CA3ACB7A4FC740D6A5D996AF /* SF-Pro-Display-SemiboldItalic.otf */; };
+		87FDF4AE7A38404C818E377E /* SF-Pro-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = A7189625667D42F39B14F750 /* SF-Pro-Display-Thin.otf */; };
+		2A0D7C1CB5F643C5B056B801 /* SF-Pro-Display-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C77525B015424E69976617E2 /* SF-Pro-Display-ThinItalic.otf */; };
+		C9834F6299474877A35F940B /* SF-Pro-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 361FF98034AB4366A3B88702 /* SF-Pro-Display-Ultralight.otf */; };
+		681B795B9F16428CA89D149F /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC1C0850D415487083884E28 /* SF-Pro-Display-UltralightItalic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,10 +62,6 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* QubikaAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QubikaAppTests.m; sourceTree = "<group>"; };
 		06BD3FEC72835A306B6CB6EC /* Pods-QubikaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QubikaApp.debug.xcconfig"; path = "Target Support Files/Pods-QubikaApp/Pods-QubikaApp.debug.xcconfig"; sourceTree = "<group>"; };
-		07C32642080D455B9F76C2DB /* BeVietnam-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BeVietnam-Medium.ttf"; path = "../src/assets/fonts/BeVietnam-Medium.ttf"; sourceTree = "<group>"; };
-		0AB040487999420F85CBB0C3 /* BeVietnam-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BeVietnam-Regular.ttf"; path = "../src/assets/fonts/BeVietnam-Regular.ttf"; sourceTree = "<group>"; };
-		0B7DB6D73862417E8C429E8D /* BeVietnam-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BeVietnam-ExtraBold.ttf"; path = "../src/assets/fonts/BeVietnam-ExtraBold.ttf"; sourceTree = "<group>"; };
-		118E4880166E4333A00161A4 /* BeVietnam-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BeVietnam-Italic.ttf"; path = "../src/assets/fonts/BeVietnam-Italic.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* QubikaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QubikaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = QubikaApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = QubikaApp/AppDelegate.mm; sourceTree = "<group>"; };
@@ -98,8 +70,6 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = QubikaApp/main.m; sourceTree = "<group>"; };
 		1465B32CF01FA5D3F9736910 /* Pods-QubikaApp-QubikaAppDevelopment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QubikaApp-QubikaAppDevelopment.debug.xcconfig"; path = "Target Support Files/Pods-QubikaApp-QubikaAppDevelopment/Pods-QubikaApp-QubikaAppDevelopment.debug.xcconfig"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-QubikaApp-QubikaAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QubikaApp-QubikaAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B2F0BAF3CBF41EF8149BF30 /* BeVietnam-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BeVietnam-Light.ttf"; path = "../src/assets/fonts/BeVietnam-Light.ttf"; sourceTree = "<group>"; };
-		1E7B0D1E801D4B058D6CC905 /* BeVietnam-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BeVietnam-ThinItalic.ttf"; path = "../src/assets/fonts/BeVietnam-ThinItalic.ttf"; sourceTree = "<group>"; };
 		462A91B4C11E444951E6EC33 /* libPods-QubikaApp-QubikaAppStaging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QubikaApp-QubikaAppStaging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B52BBCEB8E8AAFB297E8D57 /* Pods-QubikaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QubikaApp.release.xcconfig"; path = "Target Support Files/Pods-QubikaApp/Pods-QubikaApp.release.xcconfig"; sourceTree = "<group>"; };
 		54F440457D4EF3EC8D44A673 /* Pods-QubikaApp-QubikaAppStaging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QubikaApp-QubikaAppStaging.debug.xcconfig"; path = "Target Support Files/Pods-QubikaApp-QubikaAppStaging/Pods-QubikaApp-QubikaAppStaging.debug.xcconfig"; sourceTree = "<group>"; };
@@ -109,20 +79,30 @@
 		6A9CD5F12AFA7033000B394E /* QubikaAppDevelopment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QubikaAppDevelopment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AC8A3F62AFBD330003EA018 /* Development-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Development-Info.plist"; path = "QubikaApp/Development-Info.plist"; sourceTree = "<group>"; };
 		6AC8A3FA2AFBD344003EA018 /* Staging-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Staging-Info.plist"; path = "QubikaApp/Staging-Info.plist"; sourceTree = "<group>"; };
-		804BF4BDC2724AC3B145965E /* BeVietnam-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BeVietnam-LightItalic.ttf"; path = "../src/assets/fonts/BeVietnam-LightItalic.ttf"; sourceTree = "<group>"; };
-		86A827909B3D46BE8A0D80A1 /* BeVietnam-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BeVietnam-Bold.ttf"; path = "../src/assets/fonts/BeVietnam-Bold.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-QubikaApp-QubikaAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QubikaApp-QubikaAppTests.release.xcconfig"; path = "Target Support Files/Pods-QubikaApp-QubikaAppTests/Pods-QubikaApp-QubikaAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		8E9190662AC4D6F500BC14FF /* BootSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BootSplash.storyboard; path = QubikaApp/BootSplash.storyboard; sourceTree = "<group>"; };
-		AC17ACBBAB324406B8D6AA5D /* BeVietnam-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BeVietnam-SemiBold.ttf"; path = "../src/assets/fonts/BeVietnam-SemiBold.ttf"; sourceTree = "<group>"; };
-		BC012912FB3941EA82E0471F /* BeVietnam-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BeVietnam-Thin.ttf"; path = "../src/assets/fonts/BeVietnam-Thin.ttf"; sourceTree = "<group>"; };
-		D4B5A4F2B2C14826AB9437A7 /* BeVietnam-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BeVietnam-SemiBoldItalic.ttf"; path = "../src/assets/fonts/BeVietnam-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		D72E3FC1B6D04BEFB58A6350 /* BeVietnam-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BeVietnam-MediumItalic.ttf"; path = "../src/assets/fonts/BeVietnam-MediumItalic.ttf"; sourceTree = "<group>"; };
 		DD250ECCD04133BBF4B07A56 /* Pods-QubikaApp-QubikaAppStaging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QubikaApp-QubikaAppStaging.release.xcconfig"; path = "Target Support Files/Pods-QubikaApp-QubikaAppStaging/Pods-QubikaApp-QubikaAppStaging.release.xcconfig"; sourceTree = "<group>"; };
-		E9E133FC234A476FAFC8264C /* BeVietnam-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BeVietnam-BoldItalic.ttf"; path = "../src/assets/fonts/BeVietnam-BoldItalic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F5C5512841974803B30D47E9 /* BeVietnam-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BeVietnam-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/BeVietnam-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		F6FFB1C75EE1695A0A486614 /* libPods-QubikaApp-QubikaAppDevelopment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QubikaApp-QubikaAppDevelopment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0626A538FCD60B6813CEF8 /* Pods-QubikaApp-QubikaAppDevelopment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QubikaApp-QubikaAppDevelopment.release.xcconfig"; path = "Target Support Files/Pods-QubikaApp-QubikaAppDevelopment/Pods-QubikaApp-QubikaAppDevelopment.release.xcconfig"; sourceTree = "<group>"; };
+		15E323118B374BFD87DA0107 /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Black.otf"; path = "../src/assets/fonts/SF-Pro-Display-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC523E2AD95842469300A3FE /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-BlackItalic.otf"; path = "../src/assets/fonts/SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1EDD0015755540A2958D51EB /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Bold.otf"; path = "../src/assets/fonts/SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		606853F26A86482D95A4F3F7 /* SF-Pro-Display-BoldItalic.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-BoldItalic.otf"; path = "../src/assets/fonts/SF-Pro-Display-BoldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		898703D034CB4121AB7FF7A0 /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Heavy.otf"; path = "../src/assets/fonts/SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7B9C202889694130B7EE766E /* SF-Pro-Display-HeavyItalic.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-HeavyItalic.otf"; path = "../src/assets/fonts/SF-Pro-Display-HeavyItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		39306EE49C7F439585FFADF9 /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Light.otf"; path = "../src/assets/fonts/SF-Pro-Display-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B990838851F34A7BA1F6A275 /* SF-Pro-Display-LightItalic.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-LightItalic.otf"; path = "../src/assets/fonts/SF-Pro-Display-LightItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FB17E8B27D3D40278FE7EFB5 /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Medium.otf"; path = "../src/assets/fonts/SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		70866DFA9F3C4ED3A436A66B /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-MediumItalic.otf"; path = "../src/assets/fonts/SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0519D696E7624687A8893998 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Regular.otf"; path = "../src/assets/fonts/SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8924108E487C424EBC33BD98 /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-RegularItalic.otf"; path = "../src/assets/fonts/SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A159B92CA2664A52ADF5794A /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Semibold.otf"; path = "../src/assets/fonts/SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CA3ACB7A4FC740D6A5D996AF /* SF-Pro-Display-SemiboldItalic.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-SemiboldItalic.otf"; path = "../src/assets/fonts/SF-Pro-Display-SemiboldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A7189625667D42F39B14F750 /* SF-Pro-Display-Thin.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Thin.otf"; path = "../src/assets/fonts/SF-Pro-Display-Thin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C77525B015424E69976617E2 /* SF-Pro-Display-ThinItalic.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-ThinItalic.otf"; path = "../src/assets/fonts/SF-Pro-Display-ThinItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		361FF98034AB4366A3B88702 /* SF-Pro-Display-Ultralight.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Ultralight.otf"; path = "../src/assets/fonts/SF-Pro-Display-Ultralight.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FC1C0850D415487083884E28 /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-UltralightItalic.otf"; path = "../src/assets/fonts/SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,20 +223,24 @@
 		AA024589706A4DB18C6ED9EC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				86A827909B3D46BE8A0D80A1 /* BeVietnam-Bold.ttf */,
-				E9E133FC234A476FAFC8264C /* BeVietnam-BoldItalic.ttf */,
-				0B7DB6D73862417E8C429E8D /* BeVietnam-ExtraBold.ttf */,
-				F5C5512841974803B30D47E9 /* BeVietnam-ExtraBoldItalic.ttf */,
-				118E4880166E4333A00161A4 /* BeVietnam-Italic.ttf */,
-				1B2F0BAF3CBF41EF8149BF30 /* BeVietnam-Light.ttf */,
-				804BF4BDC2724AC3B145965E /* BeVietnam-LightItalic.ttf */,
-				07C32642080D455B9F76C2DB /* BeVietnam-Medium.ttf */,
-				D72E3FC1B6D04BEFB58A6350 /* BeVietnam-MediumItalic.ttf */,
-				0AB040487999420F85CBB0C3 /* BeVietnam-Regular.ttf */,
-				AC17ACBBAB324406B8D6AA5D /* BeVietnam-SemiBold.ttf */,
-				D4B5A4F2B2C14826AB9437A7 /* BeVietnam-SemiBoldItalic.ttf */,
-				BC012912FB3941EA82E0471F /* BeVietnam-Thin.ttf */,
-				1E7B0D1E801D4B058D6CC905 /* BeVietnam-ThinItalic.ttf */,
+				15E323118B374BFD87DA0107 /* SF-Pro-Display-Black.otf */,
+				BC523E2AD95842469300A3FE /* SF-Pro-Display-BlackItalic.otf */,
+				1EDD0015755540A2958D51EB /* SF-Pro-Display-Bold.otf */,
+				606853F26A86482D95A4F3F7 /* SF-Pro-Display-BoldItalic.otf */,
+				898703D034CB4121AB7FF7A0 /* SF-Pro-Display-Heavy.otf */,
+				7B9C202889694130B7EE766E /* SF-Pro-Display-HeavyItalic.otf */,
+				39306EE49C7F439585FFADF9 /* SF-Pro-Display-Light.otf */,
+				B990838851F34A7BA1F6A275 /* SF-Pro-Display-LightItalic.otf */,
+				FB17E8B27D3D40278FE7EFB5 /* SF-Pro-Display-Medium.otf */,
+				70866DFA9F3C4ED3A436A66B /* SF-Pro-Display-MediumItalic.otf */,
+				0519D696E7624687A8893998 /* SF-Pro-Display-Regular.otf */,
+				8924108E487C424EBC33BD98 /* SF-Pro-Display-RegularItalic.otf */,
+				A159B92CA2664A52ADF5794A /* SF-Pro-Display-Semibold.otf */,
+				CA3ACB7A4FC740D6A5D996AF /* SF-Pro-Display-SemiboldItalic.otf */,
+				A7189625667D42F39B14F750 /* SF-Pro-Display-Thin.otf */,
+				C77525B015424E69976617E2 /* SF-Pro-Display-ThinItalic.otf */,
+				361FF98034AB4366A3B88702 /* SF-Pro-Display-Ultralight.otf */,
+				FC1C0850D415487083884E28 /* SF-Pro-Display-UltralightItalic.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -413,22 +397,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				893DF9E42BB48B6700BA85E9 /* BeVietnam-Bold.ttf in Resources */,
-				893DF9E52BB48B6700BA85E9 /* BeVietnam-BoldItalic.ttf in Resources */,
-				893DF9E62BB48B6700BA85E9 /* BeVietnam-ExtraBold.ttf in Resources */,
-				893DF9E72BB48B6700BA85E9 /* BeVietnam-ExtraBoldItalic.ttf in Resources */,
-				893DF9E82BB48B6700BA85E9 /* BeVietnam-Italic.ttf in Resources */,
-				893DF9E92BB48B6700BA85E9 /* BeVietnam-Light.ttf in Resources */,
-				893DF9EA2BB48B6700BA85E9 /* BeVietnam-LightItalic.ttf in Resources */,
-				893DF9EB2BB48B6700BA85E9 /* BeVietnam-Medium.ttf in Resources */,
-				893DF9EC2BB48B6700BA85E9 /* BeVietnam-MediumItalic.ttf in Resources */,
-				893DF9ED2BB48B6700BA85E9 /* BeVietnam-Regular.ttf in Resources */,
-				893DF9EE2BB48B6700BA85E9 /* BeVietnam-SemiBold.ttf in Resources */,
-				893DF9EF2BB48B6700BA85E9 /* BeVietnam-SemiBoldItalic.ttf in Resources */,
-				893DF9F02BB48B6700BA85E9 /* BeVietnam-Thin.ttf in Resources */,
-				893DF9F12BB48B6700BA85E9 /* BeVietnam-ThinItalic.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				8E9190672AC4D6F500BC14FF /* BootSplash.storyboard in Resources */,
+				AC4213E50623483684CAA2C1 /* SF-Pro-Display-Black.otf in Resources */,
+				6A58A18EC61A43368AE33994 /* SF-Pro-Display-BlackItalic.otf in Resources */,
+				B507BC25885F422C91694AEC /* SF-Pro-Display-Bold.otf in Resources */,
+				DA6209FCD3D8490C8637D64B /* SF-Pro-Display-BoldItalic.otf in Resources */,
+				AC7E6467285448B681F4DBEC /* SF-Pro-Display-Heavy.otf in Resources */,
+				ACC31A866FD3455E867C12B3 /* SF-Pro-Display-HeavyItalic.otf in Resources */,
+				211BA74C9DA14ABA844A530A /* SF-Pro-Display-Light.otf in Resources */,
+				699C92BEF8D14C2BB6E378F7 /* SF-Pro-Display-LightItalic.otf in Resources */,
+				5813C592DDC3492B95D94284 /* SF-Pro-Display-Medium.otf in Resources */,
+				06BF8F3D765F4EC9BD138A8F /* SF-Pro-Display-MediumItalic.otf in Resources */,
+				65246C9C4A454D0CAB7578F6 /* SF-Pro-Display-Regular.otf in Resources */,
+				EE72239F395D4E12B87A5866 /* SF-Pro-Display-RegularItalic.otf in Resources */,
+				C0EF0FFBCAB347BA97FC2208 /* SF-Pro-Display-Semibold.otf in Resources */,
+				7CF025B31A824A8A8590BBCC /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
+				87FDF4AE7A38404C818E377E /* SF-Pro-Display-Thin.otf in Resources */,
+				2A0D7C1CB5F643C5B056B801 /* SF-Pro-Display-ThinItalic.otf in Resources */,
+				C9834F6299474877A35F940B /* SF-Pro-Display-Ultralight.otf in Resources */,
+				681B795B9F16428CA89D149F /* SF-Pro-Display-UltralightItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

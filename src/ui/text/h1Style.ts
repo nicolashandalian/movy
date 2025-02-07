@@ -2,8 +2,8 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
 	text: {
-		fontFamily: 'BeVietnam-ExtraBold',
-		fontSize: 24,
+		fontFamily: 'SFProDisplay-Regular',
+		fontSize: 27,
 	},
 });
 

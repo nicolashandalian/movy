@@ -1,61 +1,77 @@
 {
-	"migIndex": 1,
-	"data": [
-		{
-			"path": "src/assets/fonts/BeVietnam-Bold.ttf",
-			"sha1": "6f9220a5a39f3c0788f3b39b47ba35e5584c129a"
-		},
-		{
-			"path": "src/assets/fonts/BeVietnam-BoldItalic.ttf",
-			"sha1": "a62d20dfc3276cab44e514dd2cc5b42c95b59025"
-		},
-		{
-			"path": "src/assets/fonts/BeVietnam-ExtraBold.ttf",
-			"sha1": "7544fc9ef536f6d4083b36d2e45f01cde42b5920"
-		},
-		{
-			"path": "src/assets/fonts/BeVietnam-ExtraBoldItalic.ttf",
-			"sha1": "cce59205a7ec15712f6c7cda84f896eaf786ac03"
-		},
-		{
-			"path": "src/assets/fonts/BeVietnam-Italic.ttf",
-			"sha1": "0c268f45141531707ea5da2efab989d9ae3e6381"
-		},
-		{
-			"path": "src/assets/fonts/BeVietnam-Light.ttf",
-			"sha1": "99c6a580d5fd82b4c4815696cec1db2f34b9d215"
-		},
-		{
-			"path": "src/assets/fonts/BeVietnam-LightItalic.ttf",
-			"sha1": "c36979a448d4c2dc16e6750430489762c1ac0333"
-		},
-		{
-			"path": "src/assets/fonts/BeVietnam-Medium.ttf",
-			"sha1": "9ca2b036babbc23d7c5982d065bb2d63484cf2c8"
-		},
-		{
-			"path": "src/assets/fonts/BeVietnam-MediumItalic.ttf",
-			"sha1": "a7f8fe16d2e778e9c510a1ec1ae2dee8c595ad11"
-		},
-		{
-			"path": "src/assets/fonts/BeVietnam-Regular.ttf",
-			"sha1": "de50e375a10b547ecac818f85834f7e13fe24624"
-		},
-		{
-			"path": "src/assets/fonts/BeVietnam-SemiBold.ttf",
-			"sha1": "3a54b9d56ce22f2f4be01e54c2c964fa97ab67b9"
-		},
-		{
-			"path": "src/assets/fonts/BeVietnam-SemiBoldItalic.ttf",
-			"sha1": "03a632ee1c0744c18f2d08460961373da7c14afe"
-		},
-		{
-			"path": "src/assets/fonts/BeVietnam-Thin.ttf",
-			"sha1": "440c020f037892f20193689548c49af498f99b3c"
-		},
-		{
-			"path": "src/assets/fonts/BeVietnam-ThinItalic.ttf",
-			"sha1": "d2eb1b54fbeb98e8ba175149395a8b48c1cbeb36"
-		}
-	]
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/SF-Pro-Display-Black.otf",
+      "sha1": "8c7211e01e6a45a132dceef4b135f7608e3d0361"
+    },
+    {
+      "path": "src/assets/fonts/SF-Pro-Display-BlackItalic.otf",
+      "sha1": "d546f54add6391acca8670b572f3e307311c2138"
+    },
+    {
+      "path": "src/assets/fonts/SF-Pro-Display-Bold.otf",
+      "sha1": "543b2b1c9f97a8e791dc6f6fccb83c3d2e413756"
+    },
+    {
+      "path": "src/assets/fonts/SF-Pro-Display-BoldItalic.otf",
+      "sha1": "cac4f2e84a3989ce4f62f1764de981d6f89e6f7a"
+    },
+    {
+      "path": "src/assets/fonts/SF-Pro-Display-Heavy.otf",
+      "sha1": "0101d1c94f266c6bc7f2a33a2e6f1b3f2c7b54e7"
+    },
+    {
+      "path": "src/assets/fonts/SF-Pro-Display-HeavyItalic.otf",
+      "sha1": "12fcb6e3cbe444e52be2ab22059d3f57a7cfc451"
+    },
+    {
+      "path": "src/assets/fonts/SF-Pro-Display-Light.otf",
+      "sha1": "d996cdda1cfe79628db21a582a7a15765ac56a0d"
+    },
+    {
+      "path": "src/assets/fonts/SF-Pro-Display-LightItalic.otf",
+      "sha1": "1111799ce95afb9db90d6265d6881264f3e37999"
+    },
+    {
+      "path": "src/assets/fonts/SF-Pro-Display-Medium.otf",
+      "sha1": "f369755ae123ae16c3676c06dcdf0544b78262c3"
+    },
+    {
+      "path": "src/assets/fonts/SF-Pro-Display-MediumItalic.otf",
+      "sha1": "442068c7ce368e5296edd5fc3764c37255cfa78e"
+    },
+    {
+      "path": "src/assets/fonts/SF-Pro-Display-Regular.otf",
+      "sha1": "2dea34f2c076b608eac1f631c3d1dfc529427cce"
+    },
+    {
+      "path": "src/assets/fonts/SF-Pro-Display-RegularItalic.otf",
+      "sha1": "fa06faf6e160683a3d186c52e936ff4a779ba0e9"
+    },
+    {
+      "path": "src/assets/fonts/SF-Pro-Display-Semibold.otf",
+      "sha1": "8d0784b0245a9f022c3cf6462be1def751804ba7"
+    },
+    {
+      "path": "src/assets/fonts/SF-Pro-Display-SemiboldItalic.otf",
+      "sha1": "965315478178e49c3ed1d7f664bd8612935f22ed"
+    },
+    {
+      "path": "src/assets/fonts/SF-Pro-Display-Thin.otf",
+      "sha1": "c5dc2a4a77378630a74967bf186160c48d58dce0"
+    },
+    {
+      "path": "src/assets/fonts/SF-Pro-Display-ThinItalic.otf",
+      "sha1": "7f8ab6578f25700636483b0201204415a4788cac"
+    },
+    {
+      "path": "src/assets/fonts/SF-Pro-Display-Ultralight.otf",
+      "sha1": "e6adf470ea1738c2963944c7ed54116a1619d6b2"
+    },
+    {
+      "path": "src/assets/fonts/SF-Pro-Display-UltralightItalic.otf",
+      "sha1": "126628c89fde6b2a010bc70c0490b4e996bce0a2"
+    }
+  ]
 }

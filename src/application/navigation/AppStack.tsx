@@ -24,7 +24,7 @@ export const AppStack = () => {
 				headerShadowVisible: false,
 				headerTintColor: colors.text,
 				headerTitleStyle: {
-					fontFamily: 'BeVietnam-Bold',
+					fontFamily: 'SFProDisplay-Bold',
 				},
 				headerBackTitleStyle: {
 					fontFamily: 'BeVietnam-Regular',
