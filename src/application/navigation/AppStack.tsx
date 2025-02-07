@@ -27,7 +27,7 @@ export const AppStack = () => {
 					fontFamily: 'SFProDisplay-Bold',
 				},
 				headerBackTitleStyle: {
-					fontFamily: 'BeVietnam-Regular',
+					fontFamily: 'SFProDisplay-Regular',
 				},
 			}}>
 			<Stack.Screen

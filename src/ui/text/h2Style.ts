@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
 	text: {
-		fontFamily: 'BeVietnam-Bold',
+		fontFamily: 'SFProDisplay-Bold',
 		fontSize: 20,
 	},
 });

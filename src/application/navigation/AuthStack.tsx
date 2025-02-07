@@ -18,10 +18,10 @@ export const AuthStack = () => {
 				headerShadowVisible: false,
 				headerTintColor: colors.text,
 				headerTitleStyle: {
-					fontFamily: 'BeVietnam-Bold',
+					fontFamily: 'SFProDisplay-Bold',
 				},
 				headerBackTitleStyle: {
-					fontFamily: 'BeVietnam-Regular',
+					fontFamily: 'SFProDisplay-Regular',
 				},
 			}}>
 			<Stack.Screen name="Login" component={Login} />

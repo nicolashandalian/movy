@@ -50,20 +50,26 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>BeVietnam-Bold.ttf</string>
-		<string>BeVietnam-BoldItalic.ttf</string>
-		<string>BeVietnam-ExtraBold.ttf</string>
-		<string>BeVietnam-ExtraBoldItalic.ttf</string>
-		<string>BeVietnam-Italic.ttf</string>
-		<string>BeVietnam-Light.ttf</string>
-		<string>BeVietnam-LightItalic.ttf</string>
-		<string>BeVietnam-Medium.ttf</string>
-		<string>BeVietnam-MediumItalic.ttf</string>
-		<string>BeVietnam-Regular.ttf</string>
-		<string>BeVietnam-SemiBold.ttf</string>
-		<string>BeVietnam-SemiBoldItalic.ttf</string>
-		<string>BeVietnam-Thin.ttf</string>
-		<string>BeVietnam-ThinItalic.ttf</string>
+		<string>SFProDisplay-Regular.ttf</string>
+		<string>SFProDisplay-Bold.ttf</string>
+		<string>SF-Pro-Display-Black.otf</string>
+		<string>SF-Pro-Display-BlackItalic.otf</string>
+		<string>SF-Pro-Display-Bold.otf</string>
+		<string>SF-Pro-Display-BoldItalic.otf</string>
+		<string>SF-Pro-Display-Heavy.otf</string>
+		<string>SF-Pro-Display-HeavyItalic.otf</string>
+		<string>SF-Pro-Display-Light.otf</string>
+		<string>SF-Pro-Display-LightItalic.otf</string>
+		<string>SF-Pro-Display-Medium.otf</string>
+		<string>SF-Pro-Display-MediumItalic.otf</string>
+		<string>SF-Pro-Display-Regular.otf</string>
+		<string>SF-Pro-Display-RegularItalic.otf</string>
+		<string>SF-Pro-Display-Semibold.otf</string>
+		<string>SF-Pro-Display-SemiboldItalic.otf</string>
+		<string>SF-Pro-Display-Thin.otf</string>
+		<string>SF-Pro-Display-ThinItalic.otf</string>
+		<string>SF-Pro-Display-Ultralight.otf</string>
+		<string>SF-Pro-Display-UltralightItalic.otf</string>
 	</array>
 </dict>
 </plist>
