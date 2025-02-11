@@ -1,5 +1,6 @@
 export const es = {
 	common: {
+		login: 'Iniciar Sesión',
 		loading: 'Cargando',
 		connectionError: 'Error de conexión',
 	},
@@ -16,6 +17,17 @@ export const es = {
 		password: 'Contraseña',
 		button: 'Iniciar sesión',
 		error: 'Algo salió mal al iniciar sesión',
+	},
+	onboarding: {
+		step: 'PASO {0} DE {1}',
+		selectPlan: {
+			title: 'Selecciona tu plan.',
+			freeMonthDescription: 'No se te cobrará hasta que termine tu mes gratis.',
+			reminderDescription:
+				'Te recordaremos tres días antes de que termine tu prueba.',
+			cancellationDescription: 'Sin compromisos, cancela cuando quieras.',
+			buttonTitle: 'Ver los planes',
+		},
 	},
 	settings: {
 		switchTo: 'Cambiar a {0}',

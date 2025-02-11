@@ -7,4 +7,5 @@ export const colors = {
 	gableGreen: '#183D3D',
 	viridianGreen: '#5C8374',
 	purple: '#800080',
+	blue: '#0578FF',
 } as const;
