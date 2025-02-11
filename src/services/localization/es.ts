@@ -1,5 +1,6 @@
 export const es = {
 	common: {
+		login: 'Iniciar sesión',
 		loading: 'Cargando',
 		connectionError: 'Error de conexión',
 	},

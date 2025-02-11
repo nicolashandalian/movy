@@ -15,3 +15,11 @@ export const radius = {
 	l: 12,
 	xl: 15,
 } as const;
+
+export const font_size = {
+	xs: 8,
+	s: 12,
+	m: 16,
+	l: 18,
+	xl: 28,
+} as const;
