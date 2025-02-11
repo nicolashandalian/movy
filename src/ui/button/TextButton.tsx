@@ -3,7 +3,7 @@ import { TouchableOpacity, ViewStyle } from 'react-native';
 import { ButtonLabel } from 'ui/text';
 
 interface TextButtonProps {
-	style: ViewStyle;
+	style?: ViewStyle;
 	text: string;
 	onPress: () => void;
 }

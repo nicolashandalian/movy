@@ -1,5 +1,5 @@
 import React from 'react';
-import SelectPlanDescription from './screens/Onboarding/SelectPlanDescription';
+import SelectPlanDescription from './screens/Onboarding/SelectPlanDescription/SelectPlanDescription';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { AuthStackParamList } from './types';
 
