@@ -17,11 +17,11 @@ const PLANS_DATA = [
 	strings.onboarding.selectPlan.cancellationDescription,
 ];
 
-const SelectPlanDescription: React.FC<
-	SelectPlanDescriptionScreenProps
-> = () => {
+const SelectPlanDescription: React.FC<SelectPlanDescriptionScreenProps> = ({
+	navigation,
+}) => {
 	const onContinuePress = () => {
-		//TODO: Navigate to SelectPlan screen
+		navigation.navigate('SelectIdealPlan');
 	};
 	return (
 		<Screen headerStyle="login-light">

@@ -9,6 +9,7 @@ export type AppStackParamList = {
 
 export type AuthStackParamList = {
 	SelectPlanDescription: undefined;
+	SelectIdealPlan: undefined;
 };
 
 type AppStackNavigatorScreenProps<T extends keyof AppStackParamList> =
@@ -20,6 +21,8 @@ type AuthNavigatorScreenProps<T extends keyof AuthStackParamList> =
 export type HomeScreenProps = AppStackNavigatorScreenProps<'Home'>;
 export type SelectPlanDescriptionScreenProps =
 	AuthNavigatorScreenProps<'SelectPlanDescription'>;
+export type SelectIdealPlanScreenProps =
+	AuthNavigatorScreenProps<'SelectIdealPlan'>;
 export type SettingsScreenProps = AppStackNavigatorScreenProps<'Settings'>;
 export type ProductsScreenProps = AppStackNavigatorScreenProps<'Products'>;
 export type ProductDetailsScreenProps =

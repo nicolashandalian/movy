@@ -1,5 +1,9 @@
 export { default as Check } from './check.svg';
 export { default as CircleCheck } from './circleCheck.svg';
+export { default as Cross } from './cross.svg';
 export { default as GearIcon } from './gearIcon.svg';
+export { default as GrayCheck } from './grayCheck.svg';
+export { default as GrayCross } from './grayCross.svg';
 export { default as MovyBlueLogo } from './movyBlueLogo.svg';
 export { default as MovyLogo } from './movyLogo.svg';
+export { default as PlanNameBackground } from './planNameBackground.svg';

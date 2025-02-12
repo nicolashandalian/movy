@@ -13,6 +13,7 @@ import {
 
 import { sessionSlice } from 'features/session/slice';
 import EncryptedStorage from 'react-native-encrypted-storage';
+import { plansSlice } from 'features/plans/slice';
 
 const rootPersistConfig = {
 	key: 'root',
@@ -27,6 +28,7 @@ const sessionPersistConfig = {
 
 const rootReducer = combineReducers({
 	session: persistReducer(sessionPersistConfig, sessionSlice.reducer),
+	plans: plansSlice.reducer,
 });
 
 const persistedReducer = persistReducer(rootPersistConfig, rootReducer);
