@@ -58,6 +58,14 @@ export const es = {
 			subtitle: 'Crea tu cuenta.',
 			buttonTitle: 'Continuar',
 		},
+		setPayment: {
+			title: 'Configura tu forma de pago.',
+			cancelDate: 'Cancela antes del {0} y no se te cobrará ningún cargo.',
+			reminderDescription:
+				'Como recordatorio, te enviaremos un email 3 días antes.',
+			cancelDescription: 'Sin compromisos.\nCancela online cuando quieras.',
+			buttonTitle: 'Tarjeta de crédito o débito',
+		},
 	},
 	settings: {
 		switchTo: 'Cambiar a {0}',

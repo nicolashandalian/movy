@@ -1,5 +1,7 @@
 export { default as Check } from './check.svg';
+export { default as Chevron } from './chevron.svg';
 export { default as CircleCheck } from './circleCheck.svg';
+export { default as CreditCard } from './creditCard.svg';
 export { default as Cross } from './cross.svg';
 export { default as GearIcon } from './gearIcon.svg';
 export { default as GrayCheck } from './grayCheck.svg';

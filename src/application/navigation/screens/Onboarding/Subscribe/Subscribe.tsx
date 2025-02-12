@@ -10,11 +10,11 @@ import { RoundedButton } from 'ui/button';
 
 const CURRENT_STEP = 2;
 
-const Subscribe: React.FC<SubscribeScreenProps> = () => {
+const Subscribe: React.FC<SubscribeScreenProps> = ({ navigation }) => {
 	const [email, setEmail] = React.useState('');
 	const [password, setPassword] = React.useState('');
 	const onContinuePress = () => {
-		//TODO: navigate to the next screen
+		navigation.navigate('SetPayment');
 	};
 	return (
 		<Screen headerStyle="login-light">
