@@ -28,6 +28,21 @@ export const es = {
 			cancellationDescription: 'Sin compromisos, cancela cuando quieras.',
 			buttonTitle: 'Ver los planes',
 		},
+		selectIdealPlan: {
+			title: 'Selecciona el plan ideal para ti.',
+			changePlan: 'Cambia a un plan inferior  o superior en cualquier momento',
+			monthlyPriceTitle: 'Precio mensual cuando se termine el mes gratis.',
+			hdAvailableTitle: 'HD disponible',
+			ultraHdAvailableTitle: 'Ultra HD disponible',
+			screenAvailableTitle: 'Pantallas en las que puedes ver al mismo tiempo',
+			devicesAvailableTitle: 'Ve en tu laptop, TV, telefono y tablet',
+			unlimitedMoviesTitle: 'Películas y programas de TV ilimitados',
+			cancellationTitle: 'Cancela cuando quieras',
+			firstMonthFreeTitle: 'El primer mes es gratis',
+			termsDescription:
+				'La disponibilidad del contenido HD y Ultra HD depende de tu proveedor de servicios de internet y del dispositivo en uso. No todo el contenido está disponible en HD o Ultra HD. Consulta los Términos de uso para obtener más información.',
+			buttonTitle: 'Continuar',
+		},
 	},
 	settings: {
 		switchTo: 'Cambiar a {0}',

@@ -25,3 +25,7 @@ export const font_size = {
 	l: 16,
 	xl: 24,
 } as const;
+
+export const dimens = {
+	planTitleWidth: 100,
+} as const;
