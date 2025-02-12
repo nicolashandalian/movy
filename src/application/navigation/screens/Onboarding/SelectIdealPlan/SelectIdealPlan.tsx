@@ -17,11 +17,13 @@ import PlanFeaturesList, {
 
 const CURRENT_STEP = 1;
 
-const SelectIdealPlan: React.FC<SelectIdealPlanScreenProps> = () => {
+const SelectIdealPlan: React.FC<SelectIdealPlanScreenProps> = ({
+	navigation,
+}) => {
 	const { data } = usePlans();
 	const selectedPlanId = useAppSelector((state) => state.plans);
 	const onContinuePress = () => {
-		//TODO: Navigate to SelectPlan screen
+		navigation.navigate('CreateAccount');
 	};
 	if (!data) {
 		//TODO: handle loading or error state
