@@ -8,6 +8,8 @@ export const spacing = {
 	xxl: 40,
 	s56: 56,
 	s70: 70,
+	s90: 90,
+	s120: 120,
 	s156: 156,
 } as const;
 

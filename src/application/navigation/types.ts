@@ -12,6 +12,7 @@ export type AuthStackParamList = {
 	SelectIdealPlan: undefined;
 	CreateAccount: undefined;
 	Subscribe: undefined;
+	SetPayment: undefined;
 };
 
 type AppStackNavigatorScreenProps<T extends keyof AppStackParamList> =
@@ -28,6 +29,7 @@ export type SelectIdealPlanScreenProps =
 export type CreateAccountScreenProps =
 	AuthNavigatorScreenProps<'CreateAccount'>;
 export type SubscribeScreenProps = AuthNavigatorScreenProps<'Subscribe'>;
+export type SetPaymentScreenProps = AuthNavigatorScreenProps<'SetPayment'>;
 export type SettingsScreenProps = AppStackNavigatorScreenProps<'Settings'>;
 export type ProductsScreenProps = AppStackNavigatorScreenProps<'Products'>;
 export type ProductDetailsScreenProps =
