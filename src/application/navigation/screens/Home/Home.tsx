@@ -6,13 +6,11 @@ import { HomeScreenProps } from 'application/navigation/types';
 import { spacing } from 'application/theme';
 import DateShowCaseComponent from 'features/examples/dateShowcase';
 import ReanimatedComponent from 'features/examples/reanimated';
-import { useSessionContext } from 'features/session/SessionContext';
 import { strings } from 'services/localization';
-import { Button } from 'ui';
 import { Body, H1 } from 'ui/text';
 
 const Home: React.FC<HomeScreenProps> = ({ navigation }) => {
-	const { logOut } = useSessionContext();
+	// const { logOut } = useSessionContext();
 
 	const goToInfiniteQueryExample = () => {
 		navigation.navigate('Products');
@@ -32,7 +30,6 @@ const Home: React.FC<HomeScreenProps> = ({ navigation }) => {
 					<Body>{strings.home.goToInfiniteQuery}</Body>
 				</TouchableOpacity>
 			</View>
-			<Button title={strings.home.button} onPress={logOut} />
 		</View>
 	);
 };

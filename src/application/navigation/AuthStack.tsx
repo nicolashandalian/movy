@@ -1,30 +1,27 @@
-import { useTheme } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
-
-import Login from './screens/Login/Login';
+import SelectPlanDescription from './screens/Onboarding/SelectPlanDescription/SelectPlanDescription';
+import SelectIdealPlan from './screens/Onboarding/SelectIdealPlan/SelectIdealPlan';
+import CreateAccount from './screens/Onboarding/CreateAccount/CreateAccount';
+import Subscribe from './screens/Onboarding/Subscribe/Subscribe';
+import SetPayment from './screens/Onboarding/SetPayment/SetPayment';
+import SetCreditCard from './screens/Onboarding/SetCreditCard/SetCreditCard';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { AuthStackParamList } from './types';
 
 const Stack = createNativeStackNavigator<AuthStackParamList>();
 
 export const AuthStack = () => {
-	const { colors } = useTheme();
 	return (
-		<Stack.Navigator
-			screenOptions={{
-				headerStyle: {
-					backgroundColor: colors.background,
-				},
-				headerShadowVisible: false,
-				headerTintColor: colors.text,
-				headerTitleStyle: {
-					fontFamily: 'SFProDisplay-Bold',
-				},
-				headerBackTitleStyle: {
-					fontFamily: 'SFProDisplay-Regular',
-				},
-			}}>
-			<Stack.Screen name="Login" component={Login} />
+		<Stack.Navigator screenOptions={{ headerShown: false }}>
+			<Stack.Screen
+				name="SelectPlanDescription"
+				component={SelectPlanDescription}
+			/>
+			<Stack.Screen name="SelectIdealPlan" component={SelectIdealPlan} />
+			<Stack.Screen name="CreateAccount" component={CreateAccount} />
+			<Stack.Screen name="Subscribe" component={Subscribe} />
+			<Stack.Screen name="SetPayment" component={SetPayment} />
+			<Stack.Screen name="SetCreditCard" component={SetCreditCard} />
 		</Stack.Navigator>
 	);
 };
