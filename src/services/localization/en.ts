@@ -1,7 +1,15 @@
 export const en = {
 	common: {
+		empty: '',
+		questionMark: '?',
 		email: 'Email',
 		password: 'Contraseña',
+		change: 'Cambiar',
+		yourPlan: 'Tu plan',
+		name: 'Nombre',
+		lastName: 'Apellido',
+		cardNumber: 'Número de tarjeta',
+		cvv: 'Código de seguridad (CVV)',
 		login: 'Iniciar Sesión',
 		loading: 'Loading',
 		connectionError: 'Connection error',
@@ -64,6 +72,14 @@ export const en = {
 				'Como recordatorio, te enviaremos un email 3 días antes.',
 			cancelDescription: 'Sin compromisos.\nCancela online cuando quieras.',
 			buttonTitle: 'Tarjeta de crédito o débito',
+		},
+		setCreditCard: {
+			title: 'Configura tu tarjeta de crédito o débito.',
+			planDescription:
+				'Streaming ilimitado en {0} por {1} al mes después de la prueba gratis.',
+			terms:
+				'Los pagos se procesarán internacionalmente. Es posible que se apliquen comisiones bancarias adicionales.\n\n Al hacer clic en el botón, aceptas nuestros Términos de uso y nuestra Declaración de privacidad, y declaras que tienes más de 18 años. ',
+			buttonTitle: 'Iniciar membresía',
 		},
 	},
 	settings: {

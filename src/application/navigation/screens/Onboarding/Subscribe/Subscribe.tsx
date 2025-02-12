@@ -14,7 +14,7 @@ const Subscribe: React.FC<SubscribeScreenProps> = ({ navigation }) => {
 	const [email, setEmail] = React.useState('');
 	const [password, setPassword] = React.useState('');
 	const onContinuePress = () => {
-		navigation.navigate('SetPayment');
+		navigation.navigate('SetCreditCard');
 	};
 	return (
 		<Screen headerStyle="login-light">

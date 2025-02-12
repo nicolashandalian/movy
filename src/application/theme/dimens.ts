@@ -31,5 +31,6 @@ export const font_size = {
 } as const;
 
 export const dimens = {
-	planTitleWidth: 100,
+	creditCardHeight: 25,
+	creditCardWidth: 38,
 } as const;
