@@ -9,10 +9,11 @@ export type AppStackParamList = {
 
 export type AuthStackParamList = {
 	SelectPlanDescription: undefined;
-	SelectIdealPlan: undefined;
+	SelectIdealPlan: { changingPlan: boolean };
 	CreateAccount: undefined;
 	Subscribe: undefined;
 	SetPayment: undefined;
+	SetCreditCard: undefined;
 };
 
 type AppStackNavigatorScreenProps<T extends keyof AppStackParamList> =
@@ -30,6 +31,8 @@ export type CreateAccountScreenProps =
 	AuthNavigatorScreenProps<'CreateAccount'>;
 export type SubscribeScreenProps = AuthNavigatorScreenProps<'Subscribe'>;
 export type SetPaymentScreenProps = AuthNavigatorScreenProps<'SetPayment'>;
+export type SetCreditCardScreenProps =
+	AuthNavigatorScreenProps<'SetCreditCard'>;
 export type SettingsScreenProps = AppStackNavigatorScreenProps<'Settings'>;
 export type ProductsScreenProps = AppStackNavigatorScreenProps<'Products'>;
 export type ProductDetailsScreenProps =

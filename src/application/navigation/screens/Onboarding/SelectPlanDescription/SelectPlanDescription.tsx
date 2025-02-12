@@ -21,7 +21,7 @@ const SelectPlanDescription: React.FC<SelectPlanDescriptionScreenProps> = ({
 	navigation,
 }) => {
 	const onContinuePress = () => {
-		navigation.navigate('SelectIdealPlan');
+		navigation.navigate('SelectIdealPlan', { changingPlan: false });
 	};
 	return (
 		<Screen headerStyle="login-light">

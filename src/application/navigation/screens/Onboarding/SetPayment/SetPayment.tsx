@@ -19,7 +19,6 @@ const SetPayment: React.FC<SetPaymentScreenProps> = ({ navigation }) => {
 		.formatString(strings.onboarding.setPayment.cancelDate, cancelDate)
 		.toString();
 	const onContinuePress = () => {
-		//TODO: Navigate to the next screen
 		navigation.navigate('Subscribe');
 	};
 	return (

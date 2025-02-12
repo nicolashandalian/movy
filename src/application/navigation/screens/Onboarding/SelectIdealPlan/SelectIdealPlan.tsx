@@ -19,11 +19,13 @@ const CURRENT_STEP = 1;
 
 const SelectIdealPlan: React.FC<SelectIdealPlanScreenProps> = ({
 	navigation,
+	route,
 }) => {
 	const { data } = usePlans();
 	const selectedPlanId = useAppSelector((state) => state.plans);
 	const onContinuePress = () => {
-		navigation.navigate('CreateAccount');
+		if (route.params.changingPlan) navigation.navigate('SetCreditCard');
+		else navigation.navigate('CreateAccount');
 	};
 	if (!data) {
 		//TODO: handle loading or error state
