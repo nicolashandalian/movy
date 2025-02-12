@@ -43,6 +43,12 @@ export const en = {
 				'La disponibilidad del contenido HD y Ultra HD depende de tu proveedor de servicios de internet y del dispositivo en uso. No todo el contenido está disponible en HD o Ultra HD. Consulta los Términos de uso para obtener más información.',
 			buttonTitle: 'Continuar',
 		},
+		createAccount: {
+			title: 'Crea tu cuenta.',
+			description:
+				'Usa tu email y crea una contraseña para ver Netflix en cualquier dispositivo, cuando quieras.',
+			buttonTitle: 'Continuar',
+		},
 	},
 	settings: {
 		switchTo: 'Switch to {0}',
