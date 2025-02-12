@@ -11,9 +11,9 @@ import { RoundedButton } from 'ui/button';
 
 const CURRENT_STEP = 1;
 
-const CreateAccount: React.FC<CreateAccountScreenProps> = () => {
+const CreateAccount: React.FC<CreateAccountScreenProps> = ({ navigation }) => {
 	const onContinuePress = () => {
-		//TODO: navigate to the next screen
+		navigation.navigate('Subscribe');
 	};
 	return (
 		<Screen headerStyle="login-light">

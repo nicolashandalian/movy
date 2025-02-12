@@ -2,6 +2,7 @@ import React from 'react';
 import SelectPlanDescription from './screens/Onboarding/SelectPlanDescription/SelectPlanDescription';
 import SelectIdealPlan from './screens/Onboarding/SelectIdealPlan/SelectIdealPlan';
 import CreateAccount from './screens/Onboarding/CreateAccount/CreateAccount';
+import Subscribe from './screens/Onboarding/Subscribe/Subscribe';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { AuthStackParamList } from './types';
 
@@ -16,6 +17,7 @@ export const AuthStack = () => {
 			/>
 			<Stack.Screen name="SelectIdealPlan" component={SelectIdealPlan} />
 			<Stack.Screen name="CreateAccount" component={CreateAccount} />
+			<Stack.Screen name="Subscribe" component={Subscribe} />
 		</Stack.Navigator>
 	);
 };

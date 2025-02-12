@@ -4,7 +4,7 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
 	text: {
 		fontFamily: 'SFProDisplay',
-		fontSize: font_size.xl,
+		fontSize: font_size.xxl,
 		fontWeight: '500',
 	},
 });

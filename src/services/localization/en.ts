@@ -1,5 +1,7 @@
 export const en = {
 	common: {
+		email: 'Email',
+		password: 'Contraseña',
 		login: 'Iniciar Sesión',
 		loading: 'Loading',
 		connectionError: 'Connection error',
@@ -47,6 +49,12 @@ export const en = {
 			title: 'Crea tu cuenta.',
 			description:
 				'Usa tu email y crea una contraseña para ver Netflix en cualquier dispositivo, cuando quieras.',
+			buttonTitle: 'Continuar',
+		},
+		subscribe: {
+			title: 'Suscríbite para que comiences tu mes gratis',
+			description: '¡Dos pasos más y listo!',
+			subtitle: 'Crea tu cuenta.',
 			buttonTitle: 'Continuar',
 		},
 	},

@@ -1,5 +1,7 @@
-import { useTheme } from '@react-navigation/native';
 import React from 'react';
+import { useTheme } from '@react-navigation/native';
+import { radius, spacing } from 'application/theme/dimens';
+import { colors } from 'application/theme';
 import {
 	TextInput as RNTextInput,
 	StyleSheet,
@@ -8,19 +10,24 @@ import {
 
 const styles = StyleSheet.create({
 	input: {
-		borderBottomWidth: 1,
+		borderColor: colors.lightGray,
+		borderRadius: radius.xs,
+		borderWidth: 1,
+		paddingStart: spacing.m,
+		paddingVertical: spacing.s,
 	},
 });
 
 export const TextInput: React.FC<TextInputProps> = ({ style, ...props }) => {
-	const { colors } = useTheme();
+	const { colors: themeColors } = useTheme();
 	return (
 		<RNTextInput
 			style={[
 				styles.input,
-				{ color: colors.text, borderBottomColor: colors.border },
+				{ color: themeColors.text, borderBottomColor: themeColors.border },
 				style,
 			]}
+			placeholderTextColor={colors.black}
 			{...props}
 		/>
 	);

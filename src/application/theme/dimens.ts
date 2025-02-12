@@ -24,7 +24,8 @@ export const font_size = {
 	s: 12,
 	m: 14,
 	l: 16,
-	xl: 24,
+	xl: 18,
+	xxl: 24,
 } as const;
 
 export const dimens = {
