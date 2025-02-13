@@ -2,18 +2,20 @@ import React from 'react';
 import LoginLightHeader from './LoginLightHeader';
 import LoginDarkHeader from './LoginDarkHeader';
 import NoLoginHeader from './NoLoginHeader';
-import { View } from 'react-native';
+import { View, ViewStyle } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 
 export type MainHeaderStyle = 'login-light' | 'login-dark' | 'no-login';
 
 interface MainHeaderProps {
-	style: MainHeaderStyle;
+	styleType: MainHeaderStyle;
+	containerStyle?: ViewStyle;
 }
 
-export const MainHeader = ({ style }: MainHeaderProps) => {
+export const MainHeader = ({ styleType, containerStyle }: MainHeaderProps) => {
+	const { navigate } = useNavigation();
 	const onLoginPress = () => {
-		//TODO: navigate to login screen
-		console.log('Login Pressed');
+		navigate('Plans');
 	};
 
 	const onLogoPress = () => {
@@ -22,20 +24,20 @@ export const MainHeader = ({ style }: MainHeaderProps) => {
 	};
 
 	return (
-		<View>
-			{style === 'login-light' && (
+		<View style={containerStyle}>
+			{styleType === 'login-light' && (
 				<LoginLightHeader
 					onLogoPress={onLogoPress}
 					onLoginPress={onLoginPress}
 				/>
 			)}
-			{style === 'login-dark' && (
+			{styleType === 'login-dark' && (
 				<LoginDarkHeader
 					onLogoPress={onLogoPress}
 					onLoginPress={onLoginPress}
 				/>
 			)}
-			{style === 'no-login' && <NoLoginHeader onLogoPress={onLogoPress} />}
+			{styleType === 'no-login' && <NoLoginHeader onLogoPress={onLogoPress} />}
 		</View>
 	);
 };

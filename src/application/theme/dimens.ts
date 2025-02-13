@@ -11,6 +11,7 @@ export const spacing = {
 	s90: 90,
 	s120: 120,
 	s156: 156,
+	s320: 320,
 } as const;
 
 export const radius = {
@@ -28,6 +29,7 @@ export const font_size = {
 	l: 16,
 	xl: 18,
 	xxl: 24,
+	f36: 36,
 } as const;
 
 export const dimens = {

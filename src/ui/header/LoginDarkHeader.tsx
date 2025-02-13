@@ -3,7 +3,7 @@ import { MovyLogo } from 'assets/icons';
 import { View, StyleSheet, TouchableOpacity } from 'react-native';
 import { strings } from 'services/localization';
 import { spacing } from 'application/theme';
-import { TextButton } from '../button';
+import { SRoundedButton } from '../button';
 
 interface LoginDarkHeaderProps {
 	onLogoPress: () => void;
@@ -14,13 +14,12 @@ const LoginDarkHeader = ({
 	onLogoPress,
 	onLoginPress,
 }: LoginDarkHeaderProps) => {
-	//TODO: replace text button with proper button
 	return (
 		<View style={styles.container}>
 			<TouchableOpacity onPress={onLogoPress}>
 				<MovyLogo />
 			</TouchableOpacity>
-			<TextButton
+			<SRoundedButton
 				style={styles.loginButton}
 				text={strings.common.login}
 				onPress={onLoginPress}

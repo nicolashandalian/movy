@@ -29,8 +29,7 @@ const SetCreditCard: React.FC<SetCreditCardScreenProps> = ({ navigation }) => {
 		)
 		.toString();
 	const onContinuePress = () => {
-		//TODO: Navigate to home screen
-		navigation.navigate('SetPayment');
+		navigation.navigate('Plans');
 	};
 	const onChangePlanPress = () => {
 		navigation.navigate('SelectIdealPlan', { changingPlan: true });

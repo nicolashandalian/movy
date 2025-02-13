@@ -82,6 +82,11 @@ export const en = {
 			buttonTitle: 'Iniciar membresía',
 		},
 	},
+	plans: {
+		bannerTitle: 'See what’s next.',
+		bannerSubtitle: 'Watch anywhere. Cancel anytime.',
+		bannerButton: 'Prueba ahora',
+	},
 	settings: {
 		switchTo: 'Switch to {0}',
 		appWillRestart:
