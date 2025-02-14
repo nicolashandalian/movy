@@ -13,9 +13,12 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1A25A907C199F70929DE04FF /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0DFD09FFB7A7B33DB44A90D7 /* PrivacyInfo.xcprivacy */; };
 		211BA74C9DA14ABA844A530A /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39306EE49C7F439585FFADF9 /* SF-Pro-Display-Light.otf */; };
 		2A0D7C1CB5F643C5B056B801 /* SF-Pro-Display-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C77525B015424E69976617E2 /* SF-Pro-Display-ThinItalic.otf */; };
+		428187562007FCB4773C98EE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B728CB1531C55DF7D907DEC5 /* PrivacyInfo.xcprivacy */; };
 		5813C592DDC3492B95D94284 /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB17E8B27D3D40278FE7EFB5 /* SF-Pro-Display-Medium.otf */; };
+		5F401BA14E79CDCB3BA10633 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B81525C7B61BEC2787C35976 /* PrivacyInfo.xcprivacy */; };
 		6199D8D34586BBAA7A087966 /* libPods-QubikaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-QubikaApp.a */; };
 		65246C9C4A454D0CAB7578F6 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0519D696E7624687A8893998 /* SF-Pro-Display-Regular.otf */; };
 		681B795B9F16428CA89D149F /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC1C0850D415487083884E28 /* SF-Pro-Display-UltralightItalic.otf */; };
@@ -63,6 +66,7 @@
 		00E356F21AD99517003FC87E /* QubikaAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QubikaAppTests.m; sourceTree = "<group>"; };
 		0519D696E7624687A8893998 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Regular.otf"; path = "../src/assets/fonts/SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
 		06BD3FEC72835A306B6CB6EC /* Pods-QubikaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QubikaApp.debug.xcconfig"; path = "Target Support Files/Pods-QubikaApp/Pods-QubikaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		0DFD09FFB7A7B33DB44A90D7 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = QubikaApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* QubikaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QubikaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = QubikaApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = QubikaApp/AppDelegate.mm; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 		8E9190662AC4D6F500BC14FF /* BootSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BootSplash.storyboard; path = QubikaApp/BootSplash.storyboard; sourceTree = "<group>"; };
 		A159B92CA2664A52ADF5794A /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Semibold.otf"; path = "../src/assets/fonts/SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
 		A7189625667D42F39B14F750 /* SF-Pro-Display-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Thin.otf"; path = "../src/assets/fonts/SF-Pro-Display-Thin.otf"; sourceTree = "<group>"; };
+		B728CB1531C55DF7D907DEC5 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = QubikaApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B81525C7B61BEC2787C35976 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = QubikaApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		B990838851F34A7BA1F6A275 /* SF-Pro-Display-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-LightItalic.otf"; path = "../src/assets/fonts/SF-Pro-Display-LightItalic.otf"; sourceTree = "<group>"; };
 		BC523E2AD95842469300A3FE /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-BlackItalic.otf"; path = "../src/assets/fonts/SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; };
 		C77525B015424E69976617E2 /* SF-Pro-Display-ThinItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-ThinItalic.otf"; path = "../src/assets/fonts/SF-Pro-Display-ThinItalic.otf"; sourceTree = "<group>"; };
@@ -170,6 +176,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				8E9190662AC4D6F500BC14FF /* BootSplash.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				B728CB1531C55DF7D907DEC5 /* PrivacyInfo.xcprivacy */,
 			);
 			name = QubikaApp;
 			sourceTree = "<group>";
@@ -203,6 +210,8 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
 				AA024589706A4DB18C6ED9EC /* Resources */,
+				B81525C7B61BEC2787C35976 /* PrivacyInfo.xcprivacy */,
+				0DFD09FFB7A7B33DB44A90D7 /* PrivacyInfo.xcprivacy */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -417,6 +426,7 @@
 				2A0D7C1CB5F643C5B056B801 /* SF-Pro-Display-ThinItalic.otf in Resources */,
 				C9834F6299474877A35F940B /* SF-Pro-Display-Ultralight.otf in Resources */,
 				681B795B9F16428CA89D149F /* SF-Pro-Display-UltralightItalic.otf in Resources */,
+				428187562007FCB4773C98EE /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +436,7 @@
 			files = (
 				6A9CD5D62AFA7029000B394E /* BootSplash.storyboard in Resources */,
 				6A9CD5D72AFA7029000B394E /* Images.xcassets in Resources */,
+				5F401BA14E79CDCB3BA10633 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +448,7 @@
 				6A9CD5EA2AFA7033000B394E /* Images.xcassets in Resources */,
 				6AC8A3FD2AFBD344003EA018 /* Staging-Info.plist in Resources */,
 				6AC8A3F92AFBD330003EA018 /* Development-Info.plist in Resources */,
+				1A25A907C199F70929DE04FF /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
