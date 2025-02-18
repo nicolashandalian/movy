@@ -13,11 +13,6 @@ const CustomTabBar: React.FC<BottomTabBarProps> = ({
 			{state.routes.map((route, index) => {
 				const { options } = descriptors[route.key];
 
-				const label: string =
-					typeof options.tabBarLabel === 'function'
-						? route.name
-						: options.tabBarLabel || options.title || route.name;
-
 				const isFocused = state.index === index;
 
 				const Icon = options.tabBarIcon;
@@ -40,7 +35,6 @@ const CustomTabBar: React.FC<BottomTabBarProps> = ({
 						route={route}
 						onPress={onPress}
 						isFocused={isFocused}
-						label={label}
 						Icon={Icon}
 					/>
 				);

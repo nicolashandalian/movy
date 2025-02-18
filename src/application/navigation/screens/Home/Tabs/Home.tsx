@@ -1,12 +1,7 @@
 import React from 'react';
-
-import { Text, View } from 'react-native';
+import { Screen } from 'ui';
 
 const Home = () => {
-	return (
-		<View>
-			<Text>T</Text>
-		</View>
-	);
+	return <Screen noPadding floatingHeader headerStyle="no-login"></Screen>;
 };
 export default Home;

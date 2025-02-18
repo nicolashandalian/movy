@@ -1,7 +1,7 @@
 import React from 'react';
-import { Text, TouchableOpacity, StyleSheet } from 'react-native';
+import { TouchableOpacity, StyleSheet } from 'react-native';
 
-import { colors, font_size } from 'application/theme';
+import { colors } from 'application/theme';
 import { RouteProp } from '@react-navigation/native';
 
 interface IconProps {
@@ -17,7 +17,6 @@ interface TabBarButtonProps {
 	onPress: () => void;
 	Icon?: IconComponent;
 	isFocused: boolean;
-	label: string;
 }
 
 const TabBarButton: React.FC<TabBarButtonProps> = ({
@@ -25,7 +24,6 @@ const TabBarButton: React.FC<TabBarButtonProps> = ({
 	onPress,
 	Icon,
 	isFocused,
-	label,
 }) => {
 	return (
 		<TouchableOpacity
@@ -39,14 +37,6 @@ const TabBarButton: React.FC<TabBarButtonProps> = ({
 					size={50}
 				/>
 			)}
-
-			<Text
-				style={[
-					{ color: isFocused ? colors.red : colors.gableGreen },
-					styles.label,
-				]}>
-				{label}
-			</Text>
 		</TouchableOpacity>
 	);
 };
@@ -57,11 +47,6 @@ const styles = StyleSheet.create({
 		flex: 1,
 		justifyContent: 'flex-end',
 		paddingBottom: 5,
-	},
-	label: {
-		fontFamily: 'Rubik-Bold',
-		fontSize: font_size.s,
-		lineHeight: 17,
 	},
 });
 
