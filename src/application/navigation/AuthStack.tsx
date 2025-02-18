@@ -6,6 +6,7 @@ import Subscribe from './screens/Onboarding/Subscribe/Subscribe';
 import SetPayment from './screens/Onboarding/SetPayment/SetPayment';
 import SetCreditCard from './screens/Onboarding/SetCreditCard/SetCreditCard';
 import Plans from './screens/Plans/Plans';
+import { HomeNavigator } from './screens/Home/HomeNavigator';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { AuthStackParamList } from './types';
 
@@ -24,6 +25,7 @@ export const AuthStack = () => {
 			<Stack.Screen name="SetPayment" component={SetPayment} />
 			<Stack.Screen name="SetCreditCard" component={SetCreditCard} />
 			<Stack.Screen name="Plans" component={Plans} />
+			<Stack.Screen name="HomeNavigator" component={HomeNavigator} />
 		</Stack.Navigator>
 	);
 };

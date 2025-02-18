@@ -1,5 +1,12 @@
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 
+export type TabParamList = {
+	Home: undefined;
+	Search: undefined;
+	MyList: undefined;
+	Profile: undefined;
+};
+
 export type AppStackParamList = {
 	Home: undefined;
 	Settings: undefined;
@@ -15,6 +22,7 @@ export type AuthStackParamList = {
 	SetPayment: undefined;
 	SetCreditCard: undefined;
 	Plans: undefined;
+	HomeNavigator: undefined;
 };
 
 type AppStackNavigatorScreenProps<T extends keyof AppStackParamList> =
@@ -23,7 +31,6 @@ type AppStackNavigatorScreenProps<T extends keyof AppStackParamList> =
 type AuthNavigatorScreenProps<T extends keyof AuthStackParamList> =
 	NativeStackScreenProps<AuthStackParamList, T>;
 
-export type HomeScreenProps = AppStackNavigatorScreenProps<'Home'>;
 export type SelectPlanDescriptionScreenProps =
 	AuthNavigatorScreenProps<'SelectPlanDescription'>;
 export type SelectIdealPlanScreenProps =
@@ -35,6 +42,8 @@ export type SetPaymentScreenProps = AuthNavigatorScreenProps<'SetPayment'>;
 export type SetCreditCardScreenProps =
 	AuthNavigatorScreenProps<'SetCreditCard'>;
 export type PlansScreenProps = AuthNavigatorScreenProps<'Plans'>;
+export type HomeNavigatorScreenProps =
+	AuthNavigatorScreenProps<'HomeNavigator'>;
 
 export type SettingsScreenProps = AppStackNavigatorScreenProps<'Settings'>;
 export type ProductsScreenProps = AppStackNavigatorScreenProps<'Products'>;

@@ -4,10 +4,12 @@ import { View, StyleSheet } from 'react-native';
 import { strings } from 'services/localization';
 import { SRoundedButton } from 'ui/button';
 import { Title, XsBody } from 'ui/text';
+import { useNavigation } from '@react-navigation/native';
 
 const PlansBanner = () => {
+	const { navigate } = useNavigation();
 	const onTryNow = () => {
-		//TODO: Implement onTryNow
+		navigate('HomeNavigator');
 	};
 	return (
 		<View style={styles.container}>

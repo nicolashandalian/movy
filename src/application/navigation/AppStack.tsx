@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unstable-nested-components */
 import React from 'react';
-import Home from './screens/Home/Home';
+import Home from './screens/Home/Tabs/Home';
 import ProductDetails from './screens/Products/ProductDetails';
 import Products from './screens/Products/Products';
 import Settings from './screens/Settings/Settings';
