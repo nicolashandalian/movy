@@ -1,20 +1,21 @@
 import React from 'react';
+import TabBarButton from './TabBarButton';
 import { StyleSheet, View } from 'react-native';
 import { BottomTabBarProps } from '@react-navigation/bottom-tabs';
-import TabBarButton from './TabBarButton';
+import { colors, spacing } from 'application/theme';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 const CustomTabBar: React.FC<BottomTabBarProps> = ({
 	state,
 	descriptors,
 	navigation,
 }) => {
+	const { bottom } = useSafeAreaInsets();
 	return (
-		<View style={styles.container}>
+		<View style={[styles.container, { paddingBottom: bottom }]}>
 			{state.routes.map((route, index) => {
 				const { options } = descriptors[route.key];
-
 				const isFocused = state.index === index;
-
 				const Icon = options.tabBarIcon;
 
 				const onPress = () => {
@@ -45,12 +46,11 @@ const CustomTabBar: React.FC<BottomTabBarProps> = ({
 
 const styles = StyleSheet.create({
 	container: {
-		bottom: 26,
+		backgroundColor: colors.backgroundGray,
+		bottom: 0,
 		flexDirection: 'row',
-		height: 100,
-		left: 0,
+		paddingTop: spacing.m,
 		position: 'absolute',
-		right: 0,
 	},
 });
 
