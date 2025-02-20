@@ -10,8 +10,30 @@ interface PlanFeatureItemProps {
 	basicHasFeature: boolean;
 	standardHasFeature: boolean;
 	premiumHasFeature: boolean;
-	selectedPlan: SelectedPlan;
+	selectedPlan?: SelectedPlan;
+	darkMode?: boolean;
 }
+
+const getFeatureIcon = (
+	hasFeature: boolean,
+	isSelected: boolean,
+	darkMode?: boolean,
+) => {
+	switch (true) {
+		case hasFeature && darkMode:
+			return <Check />;
+		case hasFeature && isSelected:
+			return <Check />;
+		case hasFeature:
+			return <GrayCheck />;
+		case darkMode:
+			return <GrayCross />;
+		case isSelected:
+			return <Cross />;
+		default:
+			return <GrayCross />;
+	}
+};
 
 const PlanFeatureItem = ({
 	title,
@@ -19,6 +41,7 @@ const PlanFeatureItem = ({
 	standardHasFeature,
 	premiumHasFeature,
 	selectedPlan,
+	darkMode,
 }: PlanFeatureItemProps) => {
 	const features = [
 		{ hasFeature: basicHasFeature, isSelected: selectedPlan === 'basic' },
@@ -26,19 +49,15 @@ const PlanFeatureItem = ({
 		{ hasFeature: premiumHasFeature, isSelected: selectedPlan === 'premium' },
 	];
 
-	// Function to determine the correct icon
-	const getFeatureIcon = (hasFeature: boolean, isSelected: boolean) => {
-		if (hasFeature) return isSelected ? <Check /> : <GrayCheck />;
-		return isSelected ? <Cross /> : <GrayCross />;
-	};
-
 	return (
 		<View style={styles.container}>
-			<SBody style={styles.priceTitle}>{title}</SBody>
+			<SBody style={[darkMode && styles.darkTitle, styles.priceTitle]}>
+				{title}
+			</SBody>
 			<View style={styles.valuesContainer}>
 				{features.map(({ hasFeature, isSelected }, index) => (
 					<React.Fragment key={index}>
-						{getFeatureIcon(hasFeature, isSelected)}
+						{getFeatureIcon(hasFeature, isSelected, darkMode)}
 						{index < features.length - 1 && <View style={styles.line} />}
 					</React.Fragment>
 				))}
@@ -51,6 +70,7 @@ export default PlanFeatureItem;
 
 const styles = StyleSheet.create({
 	container: {},
+	darkTitle: { color: colors.white },
 	line: {
 		borderWidth: 0.5,
 		color: colors.darkGray,

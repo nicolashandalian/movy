@@ -9,7 +9,8 @@ export type SelectedPlan = 'basic' | 'standard' | 'premium';
 
 interface PlanFeaturesListProps {
 	data: (PlanHasFeatureSection | PlanPriceSection)[];
-	selectedPlan: SelectedPlan;
+	selectedPlan?: SelectedPlan;
+	darkMode?: boolean;
 }
 
 interface PlanHasFeatureSection {
@@ -26,7 +27,11 @@ interface PlanPriceSection {
 	premiumValue: string;
 }
 
-const PlanFeaturesList = ({ data, selectedPlan }: PlanFeaturesListProps) => {
+const PlanFeaturesList = ({
+	data,
+	selectedPlan,
+	darkMode,
+}: PlanFeaturesListProps) => {
 	return (
 		<FlatList
 			scrollEnabled={false}
@@ -41,6 +46,7 @@ const PlanFeaturesList = ({ data, selectedPlan }: PlanFeaturesListProps) => {
 						standardHasFeature={item.standardValue}
 						premiumHasFeature={item.premiumValue}
 						selectedPlan={selectedPlan}
+						darkMode={darkMode}
 					/>
 				) : (
 					<PlanPriceItem
@@ -50,6 +56,7 @@ const PlanFeaturesList = ({ data, selectedPlan }: PlanFeaturesListProps) => {
 						standardValue={item.standardValue}
 						premiumValue={item.premiumValue}
 						selectedPlan={selectedPlan}
+						darkMode={darkMode}
 					/>
 				)
 			}

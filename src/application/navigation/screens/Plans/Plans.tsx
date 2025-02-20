@@ -156,7 +156,6 @@ const Plans = () => {
 	};
 
 	const renderScene = ({ route }: { route: Route }) => {
-		let renderItem: ListRenderItem<ListItem>;
 		const renderPriceTab: ListRenderItem<ListItem> = () => (
 			<PlansPriceTab style={styles.tabScreenContainer} />
 		);
@@ -166,7 +165,7 @@ const Plans = () => {
 		const renderDevicesTab: ListRenderItem<ListItem> = () => (
 			<PlansDevicesTab style={styles.tabScreenContainer} />
 		);
-
+		let renderItem: ListRenderItem<ListItem>;
 		switch (route.key) {
 			case 'tab1':
 				renderItem = renderPriceTab;

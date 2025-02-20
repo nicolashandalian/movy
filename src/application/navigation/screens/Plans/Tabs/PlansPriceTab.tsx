@@ -1,17 +1,39 @@
 import React from 'react';
-import { colors } from 'application/theme';
-import { View, StyleSheet } from 'react-native';
-import { Title } from 'ui/text';
-import { PlansTabs } from '../Constants';
+import { View, StyleSheet, ViewStyle } from 'react-native';
+import { Body } from 'ui/text';
+import { strings } from 'services/localization';
+import { colors, spacing } from 'application/theme';
+import { RoundedButton } from 'ui/button';
+import PlanFeaturesList, {
+	transformPlansData,
+} from 'ui/plansFeaturesList/PlanFeaturesList';
+import { usePlans } from 'features/plans/queries';
 
-const PlansPriceTab = () => {
+interface PlansPriceTabProps {
+	style?: ViewStyle;
+}
+
+const PlansPriceTab = ({ style }: PlansPriceTabProps) => {
+	const { data } = usePlans();
+	const onFreeMonthClick = () => {
+		//TODO: Implement free month click
+		console.log('Free month clicked');
+	};
+	if (!data) {
+		//TODO: handle loading or error state
+		return null;
+	}
+	const plans = data.plans;
+
 	return (
-		<View style={styles.container}>
-			<Title style={{ color: colors.white }}>{PlansTabs.PRICE}</Title>
-			<Title style={{ color: colors.white }}>{PlansTabs.PRICE}</Title>
-			<Title style={{ color: colors.white }}>{PlansTabs.PRICE}</Title>
-			<Title style={{ color: colors.white }}>{PlansTabs.PRICE}</Title>
-			<Title style={{ color: colors.white }}>{PlansTabs.PRICE}</Title>
+		<View style={[styles.container, style]}>
+			<Body style={styles.title}>{strings.plans.price.title}</Body>
+			<RoundedButton
+				text={strings.plans.price.button}
+				onPress={onFreeMonthClick}
+				style={styles.freeMonthButton}
+			/>
+			<PlanFeaturesList data={transformPlansData(plans)} darkMode />
 		</View>
 	);
 };
@@ -19,5 +41,9 @@ const PlansPriceTab = () => {
 export default PlansPriceTab;
 
 const styles = StyleSheet.create({
-	container: {},
+	container: {
+		alignItems: 'center',
+	},
+	freeMonthButton: { marginBottom: spacing.l, marginTop: spacing.s56 },
+	title: { color: colors.white },
 });

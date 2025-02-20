@@ -9,8 +9,24 @@ interface PlanPriceItemProps {
 	basicValue: string;
 	standardValue: string;
 	premiumValue: string;
-	selectedPlan: SelectedPlan;
+	selectedPlan?: SelectedPlan;
+	darkMode?: boolean;
 }
+
+const getTextStyle = (
+	plan: SelectedPlan,
+	selectedPlan?: SelectedPlan,
+	darkMode?: boolean,
+) => {
+	switch (true) {
+		case darkMode:
+			return styles.textDarkMode;
+		case selectedPlan === plan:
+			return styles.textSelected;
+		default:
+			return styles.textUnselected;
+	}
+};
 
 const PlanPriceItem = ({
 	title,
@@ -18,38 +34,22 @@ const PlanPriceItem = ({
 	standardValue,
 	premiumValue,
 	selectedPlan,
+	darkMode,
 }: PlanPriceItemProps) => {
+	const basicTextStyle = getTextStyle('basic', selectedPlan, darkMode);
+	const standardTextStyle = getTextStyle('standard', selectedPlan, darkMode);
+	const premiumTextStyle = getTextStyle('premium', selectedPlan, darkMode);
 	return (
 		<View style={styles.container}>
-			<Body style={styles.priceTitle}>{title}</Body>
+			{!darkMode && <Body style={styles.priceTitle}>{title}</Body>}
 			<View style={styles.valuesContainer}>
-				<Body
-					style={
-						selectedPlan === 'basic'
-							? styles.textSelected
-							: styles.textUnselected
-					}>
-					{basicValue}
-				</Body>
+				<Body style={basicTextStyle}>{basicValue}</Body>
 				<View style={styles.line} />
-				<Body
-					style={[
-						selectedPlan === 'standard'
-							? styles.textSelected
-							: styles.textUnselected,
-						styles.standardText,
-					]}>
+				<Body style={[standardTextStyle, styles.standardText]}>
 					{standardValue}
 				</Body>
 				<View style={styles.line} />
-				<Body
-					style={
-						selectedPlan === 'premium'
-							? styles.textSelected
-							: styles.textUnselected
-					}>
-					{premiumValue}
-				</Body>
+				<Body style={premiumTextStyle}>{premiumValue}</Body>
 			</View>
 		</View>
 	);
@@ -72,6 +72,9 @@ const styles = StyleSheet.create({
 	},
 	standardText: {
 		marginEnd: spacing.s,
+	},
+	textDarkMode: {
+		color: colors.darkWhite,
 	},
 	textSelected: {
 		color: colors.blue,

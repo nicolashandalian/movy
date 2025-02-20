@@ -87,6 +87,10 @@ export const es = {
 		bannerTitle: 'See what’s next.',
 		bannerSubtitle: 'Watch anywhere. Cancel anytime.',
 		bannerButton: 'Prueba ahora',
+		price: {
+			title: 'Elige un plan y ve lo que quieras.',
+			button: 'DISFRUTAR UN MES GRATIS',
+		},
 	},
 	settings: {
 		switchTo: 'Cambiar a {0}',

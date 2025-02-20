@@ -1,6 +1,6 @@
 import React from 'react';
 import StepText from '../components/StepText';
-import PlanTitles from './components/PlanTitles';
+import PlanTitles from '../../../../../ui/plansFeaturesList/PlanTitles';
 import { ScrollView, StyleSheet, View } from 'react-native';
 import { SelectIdealPlanScreenProps } from 'application/navigation/types';
 import { Screen } from 'ui';
@@ -13,7 +13,7 @@ import { useAppSelector } from 'services/store/hooks';
 import PlanFeaturesList, {
 	SelectedPlan,
 	transformPlansData,
-} from './components/PlanFeaturesList';
+} from '../../../../../ui/plansFeaturesList/PlanFeaturesList';
 
 const CURRENT_STEP = 1;
 
