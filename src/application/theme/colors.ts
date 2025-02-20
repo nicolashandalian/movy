@@ -1,11 +1,13 @@
 export const colors = {
 	white: '#FFFFFF',
+	darkWhite: '#D7D7D7',
 	black: '#000000',
 	red: '#FF0000',
 	lightGray: '#979797',
 	gray: '#8A8A8A',
 	darkGray: '#3B3B3B',
 	darkBackground: '#121212',
+	tabBackground: '#0F0F0F',
 	blackPearl: '#040D12',
 	gableGreen: '#183D3D',
 	viridianGreen: '#5C8374',

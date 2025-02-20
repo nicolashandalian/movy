@@ -1,14 +1,15 @@
 import React from 'react';
 import { MovyLogo } from 'assets/icons';
-import { View, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, StyleSheet, TouchableOpacity, ViewStyle } from 'react-native';
 
 interface NoLoginHeaderProps {
+	style: ViewStyle;
 	onLogoPress: () => void;
 }
 
-const NoLoginHeader = ({ onLogoPress }: NoLoginHeaderProps) => {
+const NoLoginHeader = ({ style, onLogoPress }: NoLoginHeaderProps) => {
 	return (
-		<View>
+		<View style={style}>
 			<TouchableOpacity style={styles.logo} onPress={onLogoPress}>
 				<MovyLogo />
 			</TouchableOpacity>
