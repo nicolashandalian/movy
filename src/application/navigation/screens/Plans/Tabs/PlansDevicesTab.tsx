@@ -1,23 +1,24 @@
 import React from 'react';
 import { colors } from 'application/theme';
-import { View, StyleSheet, LayoutChangeEvent } from 'react-native';
+import { ScrollView, StyleSheet } from 'react-native';
 import { Title } from 'ui/text';
 import { PlansTabs } from '../Constants';
 
-interface PlansDevicesTabProps {
-	onLayout: (event: LayoutChangeEvent) => void;
-}
+interface PlansDevicesTabProps {}
 
-const PlansDevicesTab = ({ onLayout }: PlansDevicesTabProps) => {
+const PlansDevicesTab = ({}: PlansDevicesTabProps) => {
 	return (
-		<View style={styles.container} onLayout={onLayout}>
+		<ScrollView
+			style={styles.container}
+			scrollEnabled={false}
+			nestedScrollEnabled={false}>
 			<Title style={{ color: colors.white }}>{PlansTabs.DEVICES}</Title>
 			<Title style={{ color: colors.white }}>{PlansTabs.DEVICES}</Title>
 			<Title style={{ color: colors.white }}>{PlansTabs.DEVICES}</Title>
 			<Title style={{ color: colors.white }}>{PlansTabs.DEVICES}</Title>
 			<Title style={{ color: colors.white }}>{PlansTabs.DEVICES}</Title>
 			<Title style={{ color: colors.white }}>{PlansTabs.DEVICES}</Title>
-		</View>
+		</ScrollView>
 	);
 };
 

@@ -1,33 +1,36 @@
 import React from 'react';
-import { Image, ScrollView, StyleSheet, View } from 'react-native';
-import { Screen } from 'ui';
+import PlansHeader from './components/PlansHeader';
+import { StyleSheet, View } from 'react-native';
+import {
+	GestureHandlerRootView,
+	ScrollView as NestedScrollView,
+} from 'react-native-gesture-handler';
 import { PlansScreenProps } from 'application/navigation/types';
-import { spacing } from 'application/theme';
-import PlansNavigator from './PlansNavigator';
-import PlansBanner from './components/PlansBanner';
+import { colors } from 'application/theme';
+import { PlansNavigator } from './PlansNavigator';
+
+const TAB_HEIGHT = 1000;
 
 const Plans: React.FC<PlansScreenProps> = () => {
 	return (
-		<Screen noPadding floatingHeader headerStyle="login-dark">
-			<ScrollView
-				keyboardShouldPersistTaps="handled"
+		<GestureHandlerRootView style={styles.gestureHandler}>
+			<NestedScrollView
+				style={styles.container}
 				contentContainerStyle={styles.container}>
 				<View>
-					<Image
-						source={require('../../../../assets/icons/plansBackground.png')}
-					/>
-					<PlansBanner />
-					<PlansNavigator />
+					<PlansHeader />
+					<View style={{ height: TAB_HEIGHT }}>{PlansNavigator()}</View>
 				</View>
-			</ScrollView>
-		</Screen>
+			</NestedScrollView>
+		</GestureHandlerRootView>
 	);
 };
 
 const styles = StyleSheet.create({
 	container: {
-		paddingBottom: spacing.m,
+		backgroundColor: colors.darkGray,
 	},
+	gestureHandler: { flex: 1 },
 });
 
 export default Plans;

@@ -1,44 +1,35 @@
 import React, { useState } from 'react';
-import PlansPriceTab from './Tabs/PlansPriceTab';
 import PlansDevicesTab from './Tabs/PlansDevicesTab';
-import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
-import { LayoutChangeEvent, StyleSheet, View } from 'react-native';
-import { PlansTabs, TabScreenOptions } from './Constants';
 import PlansCancelTab from './Tabs/PlansCancelTab';
-import { colors } from 'application/theme';
+import PlansPriceTab from './Tabs/PlansPriceTab';
+import { TabView, SceneMap } from 'react-native-tab-view';
+import { useWindowDimensions } from 'react-native';
 
-const PlansNavigator = () => {
-	const Tab = createMaterialTopTabNavigator();
-	const [tabHeight, setTabHeight] = useState(0);
+const FirstRoute = () => <PlansPriceTab />;
+const SecondRoute = () => <PlansCancelTab />;
+const ThirdRoute = () => <PlansDevicesTab />;
 
-	const onLayout = (event: LayoutChangeEvent) => {
-		const { height } = event.nativeEvent.layout;
-		setTabHeight(height);
-	};
-	console.log('tabHeight', tabHeight);
+const renderScene = SceneMap({
+	first: FirstRoute,
+	second: SecondRoute,
+	third: ThirdRoute,
+});
+
+const routes = [
+	{ key: 'first', title: 'First' },
+	{ key: 'second', title: 'Second' },
+	{ key: 'third', title: 'Third' },
+];
+
+export const PlansNavigator = () => {
+	const layout = useWindowDimensions();
+	const [index, setIndex] = useState(0);
 	return (
-		<View style={[styles.container, { height: tabHeight }]}>
-			<Tab.Navigator screenOptions={TabScreenOptions}>
-				<Tab.Screen name={PlansTabs.PRICE}>
-					{() => <PlansPriceTab onLayout={onLayout} />}
-				</Tab.Screen>
-				<Tab.Screen name={PlansTabs.CANCEL}>
-					{() => <PlansCancelTab onLayout={onLayout} />}
-				</Tab.Screen>
-				<Tab.Screen name={PlansTabs.DEVICES}>
-					{() => <PlansDevicesTab onLayout={onLayout} />}
-				</Tab.Screen>
-			</Tab.Navigator>
-		</View>
+		<TabView
+			navigationState={{ index, routes }}
+			renderScene={renderScene}
+			onIndexChange={setIndex}
+			initialLayout={{ width: layout.width, height: 1000 }}
+		/>
 	);
 };
-
-export default PlansNavigator;
-
-const styles = StyleSheet.create({
-	container: {
-		borderColor: colors.gableGreen,
-		borderWidth: 4,
-		flex: 1,
-	},
-});
