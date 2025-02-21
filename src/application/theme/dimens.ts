@@ -6,6 +6,12 @@ export const spacing = {
 	l: 24,
 	xl: 32,
 	xxl: 40,
+	s56: 56,
+	s70: 70,
+	s90: 90,
+	s120: 120,
+	s156: 156,
+	s320: 320,
 } as const;
 
 export const radius = {
@@ -14,4 +20,19 @@ export const radius = {
 	m: 10,
 	l: 12,
 	xl: 15,
+} as const;
+
+export const font_size = {
+	xs: 8,
+	s: 12,
+	m: 14,
+	l: 16,
+	xl: 18,
+	xxl: 24,
+	f36: 36,
+} as const;
+
+export const dimens = {
+	creditCardHeight: 25,
+	creditCardWidth: 38,
 } as const;

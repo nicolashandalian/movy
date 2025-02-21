@@ -1,9 +1,11 @@
+import { font_size } from 'application/theme/dimens';
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
 	text: {
-		fontFamily: 'SFProDisplay-Regular',
-		fontSize: 27,
+		fontFamily: 'SFProDisplay',
+		fontSize: font_size.xxl,
+		fontWeight: '500',
 	},
 });
 
