@@ -1,22 +1,21 @@
 import React from 'react';
-import { View, StyleSheet, ViewStyle } from 'react-native';
-import { Body } from 'ui/text';
+import { colors } from 'application/theme';
+import { ScrollView, StyleSheet } from 'react-native';
+import { Title } from 'ui/text';
 import { PlansTabs } from '../Constants';
 
-interface PlansCancelTabProps {
-	style?: ViewStyle;
-}
+interface PlansCancelTabProps {}
 
-const PlansCancelTab = ({ style }: PlansCancelTabProps) => {
+const PlansCancelTab = ({}: PlansCancelTabProps) => {
 	return (
-		<View style={[style, styles.container]}>
-			<Body>{PlansTabs.CANCEL}</Body>
-		</View>
+		<ScrollView style={styles.container} nestedScrollEnabled={false}>
+			<Title style={{ color: colors.white }}>{PlansTabs.CANCEL}</Title>
+		</ScrollView>
 	);
 };
 
 export default PlansCancelTab;
 
 const styles = StyleSheet.create({
-	container: {},
+	container: { height: 1000, padding: 20 },
 });

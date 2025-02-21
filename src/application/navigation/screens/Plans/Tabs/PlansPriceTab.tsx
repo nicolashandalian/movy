@@ -1,23 +1,31 @@
 import React from 'react';
 import { colors } from 'application/theme';
-import { View, StyleSheet } from 'react-native';
+import { StyleSheet, ScrollView } from 'react-native';
 import { Title } from 'ui/text';
 import { PlansTabs } from '../Constants';
 
-const PlansPriceTab = () => {
+interface PlansPriceTabProps {}
+
+const PlansPriceTab = ({}: PlansPriceTabProps) => {
 	return (
-		<View style={styles.container}>
+		<ScrollView
+			style={styles.container}
+			contentContainerStyle={styles.contentContainer}
+			keyboardShouldPersistTaps="handled"
+			scrollEnabled={false}
+			nestedScrollEnabled={false}>
 			<Title style={{ color: colors.white }}>{PlansTabs.PRICE}</Title>
 			<Title style={{ color: colors.white }}>{PlansTabs.PRICE}</Title>
 			<Title style={{ color: colors.white }}>{PlansTabs.PRICE}</Title>
 			<Title style={{ color: colors.white }}>{PlansTabs.PRICE}</Title>
 			<Title style={{ color: colors.white }}>{PlansTabs.PRICE}</Title>
-		</View>
+		</ScrollView>
 	);
 };
 
 export default PlansPriceTab;
 
 const styles = StyleSheet.create({
-	container: {},
+	container: { flex: 1 },
+	contentContainer: { flexGrow: 1, padding: 20 },
 });

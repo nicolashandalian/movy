@@ -1,27 +1,24 @@
 import React from 'react';
-import { View, StyleSheet, ViewStyle } from 'react-native';
-import { Body } from 'ui/text';
+import { colors } from 'application/theme';
+import { ScrollView, StyleSheet } from 'react-native';
+import { Title } from 'ui/text';
 import { PlansTabs } from '../Constants';
 
-interface PlansDevicesTabProps {
-	style?: ViewStyle;
-}
+interface PlansDevicesTabProps {}
 
-const PlansDevicesTab = ({ style }: PlansDevicesTabProps) => {
+const PlansDevicesTab = ({}: PlansDevicesTabProps) => {
 	return (
-		<View style={[style, styles.container]}>
-			<Body>{PlansTabs.DEVICES}</Body>
-			<Body>{PlansTabs.DEVICES}</Body>
-			<Body>{PlansTabs.DEVICES}</Body>
-			<Body>{PlansTabs.DEVICES}</Body>
-			<Body>{PlansTabs.DEVICES}</Body>
-			<Body>{PlansTabs.DEVICES}</Body>
-			<Body>{PlansTabs.DEVICES}</Body>
-			<Body>{PlansTabs.DEVICES}</Body>
-			<Body>{PlansTabs.DEVICES}</Body>
-			<Body>{PlansTabs.DEVICES}</Body>
-			<Body>{PlansTabs.DEVICES}</Body>
-		</View>
+		<ScrollView
+			style={styles.container}
+			scrollEnabled={false}
+			nestedScrollEnabled={false}>
+			<Title style={{ color: colors.white }}>{PlansTabs.DEVICES}</Title>
+			<Title style={{ color: colors.white }}>{PlansTabs.DEVICES}</Title>
+			<Title style={{ color: colors.white }}>{PlansTabs.DEVICES}</Title>
+			<Title style={{ color: colors.white }}>{PlansTabs.DEVICES}</Title>
+			<Title style={{ color: colors.white }}>{PlansTabs.DEVICES}</Title>
+			<Title style={{ color: colors.white }}>{PlansTabs.DEVICES}</Title>
+		</ScrollView>
 	);
 };
 

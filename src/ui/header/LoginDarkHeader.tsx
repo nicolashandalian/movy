@@ -1,21 +1,23 @@
 import React from 'react';
 import { MovyLogo } from 'assets/icons';
-import { View, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, StyleSheet, TouchableOpacity, ViewStyle } from 'react-native';
 import { strings } from 'services/localization';
 import { spacing } from 'application/theme';
 import { SRoundedButton } from '../button';
 
 interface LoginDarkHeaderProps {
+	style?: ViewStyle;
 	onLogoPress: () => void;
 	onLoginPress: () => void;
 }
 
 const LoginDarkHeader = ({
+	style,
 	onLogoPress,
 	onLoginPress,
 }: LoginDarkHeaderProps) => {
 	return (
-		<View style={styles.container}>
+		<View style={[style, styles.container]}>
 			<TouchableOpacity onPress={onLogoPress}>
 				<MovyLogo />
 			</TouchableOpacity>

@@ -3,5 +3,4 @@ enum PlansTabs {
 	CANCEL = 'Cancelar',
 	DEVICES = 'Dispositivos',
 }
-
 export { PlansTabs };
