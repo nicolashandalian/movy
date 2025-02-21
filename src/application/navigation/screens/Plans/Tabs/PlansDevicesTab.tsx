@@ -8,10 +8,7 @@ interface PlansDevicesTabProps {}
 
 const PlansDevicesTab = ({}: PlansDevicesTabProps) => {
 	return (
-		<ScrollView
-			style={styles.container}
-			scrollEnabled={false}
-			nestedScrollEnabled={false}>
+		<ScrollView style={styles.container}>
 			<Title style={{ color: colors.white }}>{PlansTabs.DEVICES}</Title>
 			<Title style={{ color: colors.white }}>{PlansTabs.DEVICES}</Title>
 			<Title style={{ color: colors.white }}>{PlansTabs.DEVICES}</Title>

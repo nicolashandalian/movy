@@ -8,7 +8,7 @@ interface PlansCancelTabProps {}
 
 const PlansCancelTab = ({}: PlansCancelTabProps) => {
 	return (
-		<ScrollView style={styles.container} nestedScrollEnabled={false}>
+		<ScrollView style={styles.container}>
 			<Title style={{ color: colors.white }}>{PlansTabs.CANCEL}</Title>
 		</ScrollView>
 	);
@@ -17,5 +17,5 @@ const PlansCancelTab = ({}: PlansCancelTabProps) => {
 export default PlansCancelTab;
 
 const styles = StyleSheet.create({
-	container: { height: 1000, padding: 20 },
+	container: { padding: 20 },
 });

@@ -10,10 +10,7 @@ const PlansPriceTab = ({}: PlansPriceTabProps) => {
 	return (
 		<ScrollView
 			style={styles.container}
-			contentContainerStyle={styles.contentContainer}
-			keyboardShouldPersistTaps="handled"
-			scrollEnabled={false}
-			nestedScrollEnabled={false}>
+			contentContainerStyle={styles.contentContainer}>
 			<Title style={{ color: colors.white }}>{PlansTabs.PRICE}</Title>
 			<Title style={{ color: colors.white }}>{PlansTabs.PRICE}</Title>
 			<Title style={{ color: colors.white }}>{PlansTabs.PRICE}</Title>
