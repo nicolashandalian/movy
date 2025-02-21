@@ -3,7 +3,7 @@ import { MovyLogo } from 'assets/icons';
 import { View, StyleSheet, TouchableOpacity, ViewStyle } from 'react-native';
 
 interface NoLoginHeaderProps {
-	style: ViewStyle;
+	style?: ViewStyle;
 	onLogoPress: () => void;
 }
 
